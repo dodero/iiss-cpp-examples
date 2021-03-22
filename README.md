@@ -8,7 +8,7 @@
 4. Explicar el ejemplo en [markdown](https://en.wikipedia.org/wiki/Markdown).
 5. Ubicar los ficheros markdown y el código fuente del ejemplo en una carpeta con el nombre del tema.
 6. Publicar el ejemplo en este repositorio, haciendo un pull request. Todos los ficheros (markdown y código fuente) deben estar en una carpeta cuyo nombre coincida con el nombre del [tema](#temas), en minúsculas y sin acentos: `ocultacion`, `herencia`, `delegacion`, `functors`, `anotaciones`, `undefined`, `aspectos`, `lambdas`, `mixins`.
-7. Pedir fecha al profesor para presentar el ejemplo en clase, o bien grabar un video explicativo de menos de 10' y entregarlo a través del campus.
+7. Pedir fecha al profesor para presentar el ejemplo en clase, o bien grabar un video explicativo de menos de 8' y entregarlo a través del campus.
 
 ## Temas
 
