@@ -2,13 +2,13 @@
 
 ## Procedimiento
 
-1. Elegir un tema de teoría de la [lista de temas](#temas).
+1. Elegir un tema de teoría de la [lista de temas](#temas). Notificar por correo del campus al profesor de teoría el tema elegido y esperar su confirmación.
 2. Elegir el ejemplo del tema estudiado en clases de teoría, o bien proponer un ejemplo alternativo.
 3. Implementar el ejemplo empleando los mecanismos del lenguaje que se proponga.
 4. Explicar el ejemplo en [markdown](https://en.wikipedia.org/wiki/Markdown).
 5. Ubicar los ficheros markdown y el código fuente del ejemplo en una carpeta con el nombre del tema.
-6. Publicar el ejemplo en este repositorio, haciendo un pull request. Todos los ficheros (markdown y código fuente) deben estar en una carpeta cuyo nombre coincida con el nombre del [tema](#temas), en minúsculas y sin acentos: `ocultacion`, `herencia`, `delegacion`, `functors`, `anotaciones`, `undefined`, `aspectos`, `lambdas`, `mixins`.
-7. Pedir fecha al profesor para presentar el ejemplo en clase, o bien grabar un video explicativo de menos de 8' y entregarlo a través del campus.
+6. Publicar el ejemplo en este repositorio, haciendo una [solicitud de extracción](https://docs.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests) o [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR) en la rama `main`. Todos los ficheros (markdown y código fuente) deben estar en una carpeta cuyo nombre coincida con el nombre del [tema](#temas), en minúsculas y sin acentos: `ocultacion`, `herencia`, `delegacion`, `functors`, `anotaciones`, `undefined`, `aspectos`, `lambdas`, `mixins`.
+7. Pedir fecha al profesor para presentar el ejemplo en clase, o bien grabar un video explicativo de menos de 8' y entregarlo a través del [campus](https://av03-20-21.uca.es/moodle/mod/assign/view.php?id=91252).
 
 ## Temas
 
