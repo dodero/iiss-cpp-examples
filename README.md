@@ -2,16 +2,19 @@
 
 ## Procedimiento
 
-1. Elegir un tema de teoría de la [lista de temas](#temas). Notificar por correo del campus al profesor de teoría el tema elegido y esperar su confirmación.
-2. Elegir el ejemplo del tema estudiado en clases de teoría, o bien proponer un ejemplo alternativo.
-3. Implementar el ejemplo empleando los mecanismos del lenguaje que se proponga.
-4. Explicar el ejemplo en [markdown](https://en.wikipedia.org/wiki/Markdown).
-5. Ubicar los ficheros markdown y el código fuente del ejemplo en una carpeta con el nombre del tema.
-6. Publicar el ejemplo en este repositorio
-   - Hacer una [solicitud de extracción](https://docs.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests) o [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR)
-   - El PR debe ser en una rama con el mismo nombre del tema, en minúsculas y sin acentos: `ocultacion`, `herencia`, `delegacion`, `functors`, `anotaciones`, `undefined`, `aspectos`, `lambdas`, `mixins`.
-   - Todos los ficheros (markdown y código fuente) deben estar en una carpeta cuyo nombre también coincida con el nombre del [tema](#temas)
-8. Hacer la presentación del ejercicio realizado de alguna de estas dos formas:
+1. Elegir un tema de teoría de la [lista de temas](#temas).
+   - Notificar por correo del campus al profesor de teoría el tema elegido y esperar su confirmación.
+   - Elegir el ejemplo del tema estudiado en clases de teoría, o bien proponer un ejemplo alternativo.
+2. Implementar el ejemplo empleando los mecanismos del lenguaje que se proponga.
+   - Incluir una breve explicación escrita en [markdown](https://en.wikipedia.org/wiki/Markdown), que incluya instrucciones sobre cómo compilar el ejemplo.
+   - Ubicar los ficheros markdown y el código fuente del ejemplo en la  carpeta con el nombre del tema situada bajo la carpeta `temas`.
+3. Publicar el ejemplo en este repositorio
+   - Añadir todos los cambios en una rama con el mismo nombre del tema, en minúsculas y sin acentos. 
+   - Todos los ficheros deben estar realizados sobre una carpeta cuyo nombre también coincida con el nombre del [tema](#temas).
+   - Los nombres permitidos para las carpetas a situar bajo `temas/` son: `ocultacion`, `herencia`, `delegacion`, `functors`, `anotaciones`, `undefined`, `aspectos`, `lambdas`, `mixins`.
+   - Los cambios deben incluir las instrucciones, el código realizado y los ficheros de configuración y makefiles necesarios para compilar y probar el ejemplo.
+   - Al acabar el ejercicio, hacer una [solicitud de extracción](https://docs.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests) o [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR) en la rama creada con el nombre del tema para solicitar la incorporación de lo realizado en el ejercicio. 
+4. Hacer la presentación del ejercicio realizado de alguna de estas dos formas:
     - Pedir fecha al profesor para presentar el ejemplo en clase, o bien...
     - Grabar un video explicativo de menos de 8' y entregarlo a través del [campus](https://av03-20-21.uca.es/moodle/mod/assign/view.php?id=91252).
 
