@@ -12,3 +12,6 @@ Adjunto los comentarios/posibles ideas:
 
 - Se podría añadir otro tema más con la programación asíncrona en C++?: https://en.cppreference.com/w/cpp/thread/async
 
+- Una duda, en el repo cuando se hace el fork hay una rama "temas", esa no habría que usarla, verdad? solo la carpeta "temas".
+
+
