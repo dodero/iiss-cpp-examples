@@ -1,0 +1,14 @@
+Adjunto los comentarios/posibles ideas:
+
+- No se si saben hacer PR, si no podriamos añadir este enlace que esta muy bien explicado en la tarea: https://www.freecodecamp.org/espanol/news/como-hacer-tu-primer-pull-request-en-github/
+
+- A parte de modificar cada uno de los ejemplos pediría que añadiesen un main que los pruebe y que demuestre que funcionan, asi podemos probar que estan bien..
+
+- Unas tonterias que he visto:
+
+1) En el apartado 5 la referencia "Creating a Custom Annotation in Java" me devuelve not found en Github.
+2) En el apartado 8 esta escrito "lemguaje". También en las referencias aparece un "+" después de la última.
+3) En el apartado 9 de mixins sobra una s en "en una misma clases".
+
+- Se podría añadir otro tema más con la programación asíncrona en C++?: https://en.cppreference.com/w/cpp/thread/async
+
