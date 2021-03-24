@@ -7,13 +7,16 @@
    - Elegir el ejemplo del tema estudiado en clases de teoría, o bien proponer un ejemplo alternativo.
 2. Implementar el ejemplo empleando los mecanismos del lenguaje que se proponga.
    - Incluir una breve explicación escrita en [markdown](https://en.wikipedia.org/wiki/Markdown), que incluya instrucciones sobre cómo compilar el ejemplo.
+   - Incluir en el código un programa principal breve de demostración del ejercicio.
    - Ubicar los ficheros markdown y el código fuente del ejemplo en la  carpeta con el nombre del tema situada bajo la carpeta `temas`.
-3. Publicar el ejemplo en este repositorio
-   - Añadir todos los cambios en una rama con el mismo nombre del tema, en minúsculas y sin acentos. 
+3. Publicar el ejemplo en este mismo repositorio
+   - Añadir todos los cambios en una rama (_branch_) con el mismo nombre del tema, en minúsculas y sin acentos. 
    - Todos los ficheros deben estar realizados sobre una carpeta cuyo nombre también coincida con el nombre del [tema](#temas).
    - Los nombres permitidos para las carpetas a situar bajo `temas/` son: `ocultacion`, `herencia`, `delegacion`, `functors`, `anotaciones`, `undefined`, `aspectos`, `lambdas`, `mixins`.
    - Los cambios deben incluir las instrucciones, el código realizado y los ficheros de configuración y makefiles necesarios para compilar y probar el ejemplo.
    - Al acabar el ejercicio, hacer una [solicitud de extracción](https://docs.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests) o [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR) en la rama creada con el nombre del tema para solicitar la incorporación de lo realizado en el ejercicio. 
+   - Instrucciones: [¿Cómo hacer tu primer pull request en Github?](https://www.freecodecamp.org/espanol/news/como-hacer-tu-primer-pull-request-en-github/)
+   - No olvides borrar la rama que has empleado para hacer el PR del tema elegido.
 4. Hacer la presentación del ejercicio realizado de alguna de estas dos formas:
     - Pedir fecha al profesor para presentar el ejemplo en clase, o bien...
     - Grabar un video explicativo de menos de 8' y entregarlo a través del [campus](https://av03-20-21.uca.es/moodle/mod/assign/view.php?id=91252).
@@ -67,7 +70,7 @@ Implementar en Java el ejemplo de [BankAccount](http://dodero.github.io/iiss/iis
 
 - anotaciones definidas a medida según el [JSR 330](http://javax-inject.github.io/javax-inject/) 
 
-> Referencia: [Creating a Custom Annotation in Java](baeldung.com/java-custom-annotation) de Baeldung
+> Referencia: [Creating a Custom Annotation in Java](http://baeldung.com/java-custom-annotation) de Baeldung
 
 ### 6. Undefined
 
@@ -86,7 +89,7 @@ Implementar en C++ usando aspectos el ejemplo del caso [Editor de Figuras](http:
 
 ### 8. Lambdas
 
-Implementar ejemplos en C++ del uso de funciones anónimas (expresiones _lambda_) empleando los siguientes mecanismos del lemguaje:
+Implementar ejemplos en C++ del uso de funciones anónimas (expresiones _lambda_) empleando los siguientes mecanismos del lenguaje:
 
 - Lambdas genéricas de C++11
 - Lambdas variádicas de C++14/C++17
@@ -99,7 +102,7 @@ Implementar ejemplos en C++ del uso de funciones anónimas (expresiones _lambda_
 
 ### 9. Mixins
 
-Implementar en C++ un ejemplo de _mixin_ que permita mezclar distintos comportamientos en una misma clases, empleando los siguientes mecanismos del lenguaje:
+Implementar en C++ un ejemplo de _mixin_ que permita mezclar distintos comportamientos en una misma clase, empleando los siguientes mecanismos del lenguaje:
 
 - polimorfismo estático (templates)
 - polimorfirmo dinámico
@@ -108,3 +111,27 @@ Implementar en C++ un ejemplo de _mixin_ que permita mezclar distintos comportam
 >  - [DrDobbs Journal](https://www.drdobbs.com/cpp/mixin-based-programming-in-c/184404445)
 >  - [Combining Static and Dynamic Polymorphism with C++ Mixin classes](https://michael-afanasiev.github.io/2016/08/03/Combining-Static-and-Dynamic-Polymorphism-with-C++-Template-Mixins.html)
 
+
+### 10. Promesas
+
+Implementar en C++ un ejemplo de programación asíncrona, similar a los mostrados en [Promesas y futuros](http://dodero.github.io/iiss/iiss-evp-2/#promesas), que emplee los siguientes mecanismos del lenguaje:
+
+- `std::async`
+- `std::promise`
+
+> Referencias:
+>   - [CppReference: thread support library](https://en.cppreference.com/w/cpp/thread)
+>   - [CppReference: async](https://en.cppreference.com/w/cpp/thread/async)
+>   - [CppReference: promise](https://en.cppreference.com/w/cpp/thread/promise)
+
+### 11. Futuros
+
+Implementar en C++ un ejemplo de programación asíncrona, similar a los mostrados en [Promesas y futuros](http://dodero.github.io/iiss/iiss-evp-2/#promesas), que emplee los siguientes mecanismos del lenguaje:
+
+- `std::async`
+- `std::future`
+
+> Referencias:
+>   - [CppReference: thread support library](https://en.cppreference.com/w/cpp/thread)
+>   - [CppReference: async](https://en.cppreference.com/w/cpp/thread/async)
+>   - [CppReference: future](https://en.cppreference.com/w/cpp/thread/future)
