@@ -24,7 +24,7 @@ int Ataques::MuyEficaz()
 }
 
 //Pokemon tipo Planta
-string PokemonTipoPlanta::tipo() const
+string PokemonTipoPlanta::Tipo() const
 {
     return("tipo Planta");
 }
@@ -48,7 +48,7 @@ void PokemonTipoPlanta::AtaquePlanta(Pokemon& target)
 }
 
 //Pokemon tipo Fuego
-string PokemonTipoFuego::tipo() const
+string PokemonTipoFuego::Tipo() const
 {
     return("tipo Fuego");
 }
@@ -72,7 +72,7 @@ void PokemonTipoFuego::AtaqueFuego(Pokemon& target)
 }
 
 //Pokemon tipo Agua
-string PokemonTipoAgua::tipo() const
+string PokemonTipoAgua::Tipo() const
 {
     return("tipo Agua");
 }

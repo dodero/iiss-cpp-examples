@@ -11,25 +11,25 @@ class Pokemon
     //Parte publica
     public:
         //Constructor
-        Pokemon(int HP = 10): HP_{HP}{}
+        Pokemon(int HP = 10): hp{HP}{}
 
         //Para imprimir el tipo del pokemon, método virtual puro
-        virtual string tipo() const = 0;
+        virtual string Tipo() const = 0;
 
         //Método de ataque virtual puro
         virtual void Atacar(Pokemon&) = 0;
 
         //Consultor de la vida
-        const int& Vida() const {return (HP_);}
+        const int& Vida() const {return (hp);}
         //Modificador de la vida
-        int& Vida() {return(HP_);}
+        int& Vida() {return(hp);}
 
         //Destructor
         virtual ~Pokemon() {};
 
     //Parte privada
     private:
-        int HP_; //Atributo con la vida
+        int hp; //Atributo con la vida
 };
 
 //Interfaces
@@ -74,7 +74,7 @@ class PokemonTipoPlanta: public Pokemon, Ataques, SabeAtaquePlanta
         void Atacar(Pokemon& target) override final {AtaquePlanta(target);}
 
         //Método para devolver el tipo como string
-        string tipo () const override;
+        string Tipo() const override;
 };
 
 class PokemonTipoFuego: public Pokemon, Ataques, SabeAtaqueFuego
@@ -89,7 +89,7 @@ class PokemonTipoFuego: public Pokemon, Ataques, SabeAtaqueFuego
         void Atacar(Pokemon& target) override final {AtaqueFuego(target);}
 
         //Método para devolver el tipo como string
-        string tipo () const override;
+        string Tipo() const override;
 };
 
 class PokemonTipoAgua : public Pokemon, Ataques, SabeAtaqueAgua
@@ -104,7 +104,7 @@ class PokemonTipoAgua : public Pokemon, Ataques, SabeAtaqueAgua
         void Atacar(Pokemon& target) override final {AtaqueAgua(target);}
 
         //Método para devolver el tipo como string
-        string tipo () const override;
+        string Tipo() const override;
 };
 
 #endif
