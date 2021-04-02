@@ -4,7 +4,9 @@ Promesas en C++
 Introducción
 ------------
 
+
 En este ejemplo de programación veremos el uso de promesas, futuros y async para la creacion de una funcion que realice el calculo de un factorial.
+
 
 Mecanismos a utilizar
 ---------------------
@@ -19,6 +21,7 @@ Para la realización de este ejercicio necesitaremos 3 mecanismos que nos propor
 
 * Realizamos un uso de captura de excepciones si la toma del valor de la promesa o la devolucion del valor futuro del hilo asincrono produden un error. En caso afirmativo tomaremos con el metodo set_exception de la promesa la excepcion actual.
 
+
 Compilación y ejecución
 -----------------------
 
@@ -26,4 +29,6 @@ Para compilar este ejemplo simplemente tendremos que ejecutar este comando en el
  > g++ -std=c++17 -O2 -Wall -pedantic -pthread main.cpp && ./a.out
 
 Cabe decir que solamente funcionará este programa si el computador en el que se compila y ejecuta tiene una version de C++ correcta.
+
 Para mas facilidad de prueba, dirijase al compilador online [Coliru](http://coliru.stacked-crooked.com/)
+

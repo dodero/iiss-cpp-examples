@@ -8,6 +8,7 @@
 #include <string> 
 #include <thread>
 
+
 using namespace std;
 
 int functionFactorial ( std::future<int>& promiseOfFuture ){
@@ -29,7 +30,7 @@ int main(){
 	int factorial; //Factorial final
 	
 	std::promise<int> promise;	//Promesa de un valor
-	std::future<int> promiseOfFuture = promise.get_future(); //La primesa nos proporcionará un futuro
+	std::future<int> promiseOfFuture = promise.get_future(); //La primesa nos proporcionarï¿½ un futuro
     std::future<int> future = std::async(std::launch::async , functionFactorial, std::ref(promiseOfFuture));  //Ejecucion asincrona
     
     std::this_thread::sleep_for(chrono::milliseconds(10)); //dormimos el hilo principal por un tiempo
@@ -37,24 +38,17 @@ int main(){
 
     try{
 
-    promise.set_value(factor); //Damos el valor prometido anteriormente a promise.
-	factorial = future.get(); //Obtenemos el valor prometido del futuro del hilo asincrono que ejecuta facotiral
+     promise.set_value(factor); //Damos el valor prometido anteriormente a promise.
+	   factorial = future.get(); //Obtenemos el valor prometido del futuro del hilo asincrono que ejecuta facotiral
     
-    cout << factor << "! = "<<factorial ; //Mostramos el factorial del factor 'factor'.
+     cout << factor << "! = "<<factorial ; //Mostramos el factorial del factor 'factor'.
 	
-	}catch(std::exception &e){ //Si se ejecuta una excepcion y la lanzamos.
-		promise.set_exception(std::current_exception());
-	}finally{
+	  }catch(std::exception &e){ //Si se ejecuta una excepcion y la lanzamos.
+		  promise.set_exception(std::current_exception());
+	  }finally{
 	    return 0;
 	}
     
 }
-
-
-
-
-
-
-
 
 

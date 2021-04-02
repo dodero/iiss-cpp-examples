@@ -72,7 +72,18 @@ Implementar en Java el ejemplo de [BankAccount](http://dodero.github.io/iiss/iis
 
 > Referencia: [Creating a Custom Annotation in Java](http://baeldung.com/java-custom-annotation) de Baeldung
 
-### 6. Undefined
+### 6. Excepciones
+
+Implementar en Java ejemplos de excepciones, usando los siguientes mecanismos para gestión de errores:
+
+- Excepciones checked en Java
+- Excepciones unckeched en Java
+
+> Referencias:
+>  - Capítulo XX de _Bruce Eckel-Thinking in C++_
+
+
+### 7. Undefined
 
 Implementar en C++ el ejemplo del caso "MobileTester" del apartado [Optionals](http://dodero.github.io/iiss/iiss-err/#optionals) usando los siguientes mecanismos del lenguaje para resolver el problema de los valores no definidos y el mal uso de `null`:
 
@@ -80,14 +91,14 @@ Implementar en C++ el ejemplo del caso "MobileTester" del apartado [Optionals](h
 
 > Referencia: [CppReference](https://en.cppreference.com/w/cpp/utility/optional)
 
-### 7. Aspectos
+### 8. Aspectos
 
 Implementar en C++ usando aspectos el ejemplo del caso [Editor de Figuras](http://dodero.github.io/iiss/iiss-aop/#caso-5-editor-de-figuras).
 
 > Referencia: [AspectC++](https://www.aspectc.org/)
 
 
-### 8. Lambdas
+### 9. Lambdas
 
 Implementar ejemplos en C++ del uso de funciones anónimas (expresiones _lambda_) empleando los siguientes mecanismos del lenguaje:
 
@@ -100,7 +111,7 @@ Implementar ejemplos en C++ del uso de funciones anónimas (expresiones _lambda_
 >  - [Lambdas: From C++11 to C++20: Part 1](https://www.bfilipek.com/2019/02/lambdas-story-part1.html)
 >  - [Lambdas: From C++11 to C++20: Part 2](https://www.bfilipek.com/2019/03/lambdas-story-part2.html) + 
 
-### 9. Mixins
+### 10. Mixins
 
 Implementar en C++ un ejemplo de _mixin_ que permita mezclar distintos comportamientos en una misma clase, empleando los siguientes mecanismos del lenguaje:
 
@@ -112,7 +123,7 @@ Implementar en C++ un ejemplo de _mixin_ que permita mezclar distintos comportam
 >  - [Combining Static and Dynamic Polymorphism with C++ Mixin classes](https://michael-afanasiev.github.io/2016/08/03/Combining-Static-and-Dynamic-Polymorphism-with-C++-Template-Mixins.html)
 
 
-### 10. Promesas
+### 11. Promesas
 
 Implementar en C++ un ejemplo de programación asíncrona, similar a los mostrados en [Promesas y futuros](http://dodero.github.io/iiss/iiss-evp-2/#promesas), que emplee los siguientes mecanismos del lenguaje:
 
@@ -124,7 +135,7 @@ Implementar en C++ un ejemplo de programación asíncrona, similar a los mostrad
 >   - [CppReference: async](https://en.cppreference.com/w/cpp/thread/async)
 >   - [CppReference: promise](https://en.cppreference.com/w/cpp/thread/promise)
 
-### 11. Futuros
+### 12. Futuros
 
 Implementar en C++ un ejemplo de programación asíncrona, similar a los mostrados en [Promesas y futuros](http://dodero.github.io/iiss/iiss-evp-2/#promesas), que emplee los siguientes mecanismos del lenguaje:
 
@@ -135,3 +146,23 @@ Implementar en C++ un ejemplo de programación asíncrona, similar a los mostrad
 >   - [CppReference: thread support library](https://en.cppreference.com/w/cpp/thread)
 >   - [CppReference: async](https://en.cppreference.com/w/cpp/thread/async)
 >   - [CppReference: future](https://en.cppreference.com/w/cpp/thread/future)
+
+### 13. Variants
+
+Implementar en C++17 un ejemplo de uso de uniones type-safe empleando los siguientes mecanismos del lenguaje:
+
+- `std::variant`
+
+> Referencias:
+>  - [CppReference: variant](https://en.cppreference.com/w/cpp/utility/variant)
+>  - [Everything You Need to Know About std::variant from C++17](https://www.bfilipek.com/2018/06/variant.html)
+
+### 14. Observables
+
+Implementar en C++ un ejemplo de procesamiento de streams de eventos asíncronos empleando los siguientes elementos de la biblioteca [RxCpp](https://github.com/ReactiveX/RxCpp):
+
+- `rxcpp::observable`
+
+>  Referencias:
+>  - [ReactiveX.io](http://reactivex.io/intro.html)
+>  - [Observables de RxCpp](http://reactivex.io/RxCpp/index.html)
