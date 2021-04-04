@@ -12,8 +12,8 @@ int main()
     Pokemon * P1 = Pokemon_Aleatorio_Puntero();
     Pokemon& P2 = Pokemon_Aleatorio_Referencia();
 
-    cout << "P1 es de " << P1->tipo() <<endl;
-    cout << "P2 es de " << P2.tipo() << endl;
+    cout << "P1 es de " << P1->Tipo() <<endl;
+    cout << "P2 es de " << P2.Tipo() << endl;
 
     Combate(*P1, P2);
 
