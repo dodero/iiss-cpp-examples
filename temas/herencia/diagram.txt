@@ -1,0 +1,67 @@
+@startuml
+/' Objects '/
+
+class AtaquesImp {
+	-esMuyEficaz(Pokemon& shooter, Pokemon& target) : bool
+	-esNeutro(Pokemon& shooter, Pokemon& target) : bool
+	-esPocoEficaz(Pokemon& shooter, Pokemon& target) : bool
+	-AtaqueMuyEficaz() : int
+	-AtaqueNeutro() : int
+	-AtaquePocoEficaz() : int
+	+getTipoString(Tipo t) : string
+	+resolverAtaque(Pokemon& shooter, Pokemon& target) : void
+}
+
+interface AtaquesMediator {
+	+{abstract} getTipoString(Tipo t) : string
+	+{abstract} resolverAtaque(Pokemon& shooter, Pokemon& target) : void
+}
+
+abstract class Pokemon {
+	+Pokemon(int HP, Tipo T, AtaquesMediator& A)
+	+~Pokemon()
+	#a : AtaquesMediator&
+	-t : Tipo
+	-hp : int
+	+Vida() : int& {query}
+	+Vida() : int&
+	+getTipo() : int& {query}
+	+{abstract} Celebra() : string
+	+getTipoString() : string {query}
+	+Atacar(Pokemon &) : void
+}
+
+class PokemonTipoAgua {
+	+PokemonTipoAgua(AtaquesMediator& A, int HP)
+	+Celebra() : string
+}
+
+class PokemonTipoFuego {
+	+PokemonTipoFuego(AtaquesMediator& A, int HP)
+	+Celebra() : string
+}
+
+class PokemonTipoPlanta {
+	+PokemonTipoPlanta(AtaquesMediator& A, int HP)
+	+Celebra() : string
+}
+
+enum Tipo {
+	Agua
+	Fuego
+	Planta
+}
+
+
+/' Inheritance relationships '/
+
+.AtaquesMediator <|-- .AtaquesImp
+.Pokemon <|-- .PokemonTipoAgua
+.Pokemon <|-- .PokemonTipoFuego
+.Pokemon <|-- .PokemonTipoPlanta
+
+/' Aggregation relationships '/
+.Pokemon *-- .AtaquesMediator
+.Pokemon *-- .Tipo
+
+@enduml
