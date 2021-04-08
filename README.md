@@ -12,7 +12,7 @@
 3. Publicar el ejemplo en este mismo repositorio
    - Añadir todos los cambios en una rama (_branch_) con el mismo nombre del tema, en minúsculas y sin acentos. 
    - Todos los ficheros deben estar realizados sobre una carpeta cuyo nombre también coincida con el nombre del [tema](#temas).
-   - Los nombres permitidos para las carpetas a situar bajo `temas/` son: `ocultacion`, `herencia`, `delegacion`, `functors`, `anotaciones`, `undefined`, `aspectos`, `lambdas`, `mixins`.
+   - Los nombres permitidos para las carpetas a situar bajo `temas/` son: `ocultacion`, `herencia`, `delegacion`, `functors`, `anotaciones`, `expcepciones`, `undefined`, `aspectos`, `lambdas`, `mixins`, `promesas`, `futuros`, `observables`.
    - Los cambios deben incluir las instrucciones, el código realizado y los ficheros de configuración y makefiles necesarios para compilar y probar el ejemplo.
    - Al acabar el ejercicio, hacer una [solicitud de extracción](https://docs.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests) o [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR) en la rama creada con el nombre del tema para solicitar la incorporación de lo realizado en el ejercicio. 
    - Instrucciones: [¿Cómo hacer tu primer pull request en Github?](https://www.freecodecamp.org/espanol/news/como-hacer-tu-primer-pull-request-en-github/)
