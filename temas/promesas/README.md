@@ -36,8 +36,8 @@ En este main, instanciaremos el valor del factorial a calcular, por ejemplo 5, y
 ![](https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/flujo1.png)
 
 A continuacion, empezaremos a preparar nuestra promesa para el valor futuro. Para ello, declararemos un tipo _promise<int>_ y un tipo _future<int>_, ambos de la biblioteca estándar. A la declaracion del futuro le asignatremos un valor futuro que esperará de nuestra promesa cuando esta ultima se cumpla.
- !(https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/promise1.png)
- !(https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/promise2.png)
+ ![](https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/promise1.png)
+ ![](https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/promise2.png)
 
 Realizadas las operaciones anteriores nos reparamos la ejecucion asincrona de nuestra función. Dicha ejecucion, devolverá un falor _future<int>_ el cual su plantilla será proporcionada por nuestra función. Para preparar la ejecucion asincrona debemos realizar la siguiente llamada al método _std::async_:
 ![](https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/flujo2.png)
