@@ -14,7 +14,7 @@ Mecanismos a utilizar
 Para la realización de este ejercicio necesitaremos 3 mecanismos que nos proporciona la biblioteca std::future de C++
 
 * std::promise<T> : Este mecanismo nos permite declarar una promesa, la cual "prometerá" el paso de un parámetro en el futuro a una funcion determinada. La promesa obtiene un tipo future, el cual se obtendrá en el futuro y la función lo procesará. En la siguiente imagen monstramos la declaracion de nuestra promesa principal
-!(https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/promise1.png)
+![](https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/promise1.png)
 
 
 * std::future<T> : El tipo futuro nos permite declarar una variable de un tipo T, la cual será procesada en el futuro por una funcion asincrona (en este caso). Y a este le asignamos el futuro de una promesa ya declarada.
