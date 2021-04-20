@@ -45,10 +45,10 @@ En esta llamada, realizaremos el lanzamiento de _async_ de forma _std::launch::a
 
 Al realizar lo anterior, la funcion empezara a ejecutarse en otro hilo independiente al principal.
 Dicha funcion no se ejecutara completamente debido a que esta necesita que el hilo principal aplique el valor deseado a la promesa, pudiendo esta realizar la devolucion del futuro al valor del parametro de dicha funcion. Cuando se haya realizado todo lo anterior, operacion _promiseOfFuture.get()_ dentro de nuestra funcion proporcionara el valor deseado a la variable _numberFactorial_ y esta proseguira su flujo de ejecucion.
-[]!(https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/flujo3.png)
+![](https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/flujo3.png)
 
 Para funalizar la ejecucion del programa, realizaremos la toma del valor futuro con _future.get()_ de nuestra funcion, y lo asignaremos a nuestra variable _factorial_ declarada anteriormente. Por ultimo, mostraremos el resultado o mostraremos una excepcion dependiendo del caso, y terminaremos la ejecucion de la funcion principal.
-[]!(https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/factorial4.png)
+![](https://github.com/gonzalouli/iiss-cpp-examples/blob/promesas/temas/promesas/imgs/factorial4.png)
 
 
 
