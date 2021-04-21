@@ -53,6 +53,8 @@ Para funalizar la ejecución del programa, realizaremos la toma del valor futuro
 
 
 
+* Realizamos un uso de captura de excepciones si la toma del valor de la promesa o la devolucion del valor futuro del hilo asincrono produden un error. En caso afirmativo tomaremos con el metodo set_exception de la promesa la excepcion actual.
+
 
 Compilación y ejecución
 -----------------------

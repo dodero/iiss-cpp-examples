@@ -2,14 +2,14 @@ CXX = g++
 CXXFLAGS = -g -Wall -std=c++11 -pedantic
 CPPFLAGS = -I. 
 
-EXES = combate
-CLASES = combate.o POOkemon.o 
+EXES = prueba
+CLASES = Prueba.o Aventura.o 
 
 .PHONY: all clean
 
 all: $(EXES)
 
-combate: $(CLASES)
+prueba: $(CLASES)
 	$(CXX) $(CXXFLAGS) $^ -o $@
 
 clean: 
