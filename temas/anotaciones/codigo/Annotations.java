@@ -8,12 +8,20 @@ import java.lang.annotation.Target;
 public class Annotations {
 	
 	// Element.TYPE -> This annotation is for the class
+	// Element.FIELD -> This annotations is for fields in the class
 	
 	@Retention(RetentionPolicy.RUNTIME)
-	@Target({ ElementType.TYPE})
-	public @interface compareBySomething{
-		String type() default "id";
+	@Target({ ElementType.TYPE, ElementType.FIELD})
+	public @interface compareById{
+		
 	}	
+	
+	@Retention(RetentionPolicy.RUNTIME)
+	@Target({ ElementType.TYPE, ElementType.FIELD})
+	public @interface compareByDate{
+		
+	}
 
+	
 	
 }

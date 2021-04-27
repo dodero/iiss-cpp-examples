@@ -1,14 +1,19 @@
 package codigo;
 
+import java.lang.reflect.Field;
 import java.time.LocalDate; 
 import java.util.Comparator;
 import java.util.Scanner;
+
+import codigo.Annotations.compareById;
+import codigo.Annotations.compareByDate;
+
 
 public class Main {	
 	public static void main(String[]args) {
 		Comparator<BankAccount> comparatorId = new BankAccountComparatorById();
 		Comparator<BankAccount> comparatorDate = new BankAcccountComparatorByCreationDate();
-		Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);		
 		
 		// Create main bank fields
 		System.out.println("## WRITE MY BANK DATA FIELDS ### ");
@@ -24,21 +29,29 @@ public class Main {
 		month = input.nextInt();
 		System.out.print("Write a day for your bank account: ");
 		day = input.nextInt();
-		input.close();		
+		input.nextLine();		
+		input.close();	
 		
-		// Create the main back
+		// Create the object main banks
 		LocalDate bankDate = LocalDate.of(year, month, day);	
-		BankAccount bank = new BankAccount(idBank,comparatorId,bankDate);	// Injection
-		printBank(bank);		
+		BankAccount bank = new BankAccount(idBank,bankDate);
+		bank.setComparatorId(comparatorId);
+		bank.setComparatorDate(comparatorDate);
+		printBank(bank);
 		
 		// Create other banks to compare
 		LocalDate bankADate = LocalDate.of(1996, 10, 18);
 		LocalDate bankBDate = LocalDate.of(2020, 2, 8);
-		BankAccount bankA = new BankAccount("12345",comparatorId,bankADate);
-		BankAccount bankB = new BankAccount("1234",comparatorId,bankBDate);
+		BankAccount bankA = new BankAccount("1234",bankADate);
+		bankA.setComparatorId(comparatorId);
+		bankA.setComparatorDate(comparatorDate);
+		BankAccount bankB = new BankAccount("12345",bankBDate);
+		bankB.setComparatorId(comparatorId);
+		bankB.setComparatorDate(comparatorDate);		
 		
-		compareIdBanks(bank, bankA);
-		compareIdBanks(bank, bankB);		
+		// Compare the banks
+		compareBanks(bank, bankA);		
+		compareBanks(bank, bankB);		
 	}	
 	
 	private static void printBank(BankAccount bank) {
@@ -50,11 +63,40 @@ public class Main {
 		System.out.println("");
 	}
 	
-	private static void compareIdBanks(BankAccount bankA, BankAccount bankB ) {
-		System.out.println("ID Bank A: " + bankA.getId() + " | ID Bank B: " + bankB.getId());
-		if(bankA.compareTo(bankB) == 0) System.out.println("The id's of the banks are equal");
-		else {System.out.println("The id's are different");}
+	private static void compareBanks(BankAccount bankA, BankAccount bankB ) {
 		
+		// Check if this class have this annotations
+		boolean haveAnnotations = checkAnnotations();
+		
+		if(haveAnnotations) {
+			System.out.println("ID Bank A: " + bankA.getId() + " | ID Bank B: " + bankB.getId());	
+			System.out.println("Date Bank A: " + bankA.getCreationDate() + " | ID Bank B: " + bankB.getCreationDate());
+			
+			// Compare by Id's
+			if(bankA.compareTo(bankB) == 0) System.out.println("The id's of the banks are equal");
+			else {System.out.println("The id's are different");}
+			
+			// Compare by Dates
+			if(bankA.compareByDate(bankB) == 0) System.out.println("The dates of the banks are equal");
+			else {System.out.println("The dates are different");}
+			System.out.println("");
+		}
+		else {
+			System.out.println("These class dont have this annotations!");
+		}	
+		
+	}
+	
+	private static boolean checkAnnotations() {		
+		boolean isRight = false;
+		Class<BankAccount> obj = BankAccount.class;	
+		if(obj.getDeclaredFields().length == 0) {System.out.println("This class doesnt have fields");}
+		for(Field field : obj.getDeclaredFields()) {		
+			  if(!field.isAnnotationPresent(compareById.class)) isRight = true;
+			  if(!field.isAnnotationPresent(compareByDate.class))isRight = true;		  
+		  } 
+
+		return isRight;
 	}
 	
 
