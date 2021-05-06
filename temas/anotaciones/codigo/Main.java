@@ -15,29 +15,11 @@ public class Main {
 		Comparator<BankAccount> comparatorDate = new BankAcccountComparatorByCreationDate();
 		Scanner input = new Scanner(System.in);		
 		
-		// Create main bank fields
-		System.out.println("## WRITE MY BANK DATA FIELDS ### ");
-		String idBank = "";
-		System.out.print("Write an id bank: ");
-		idBank = input.nextLine();
-		
-		// Create LocalDate for main bank
-		int year = 0, month = 0, day = 0;
-		System.out.print("Write a year for your bank account: ");
-		year = input.nextInt();
-		System.out.print("Write a month for your bank account: ");
-		month = input.nextInt();
-		System.out.print("Write a day for your bank account: ");
-		day = input.nextInt();
-		input.nextLine();		
-		input.close();	
-		
-		// Create the object main banks
-		LocalDate bankDate = LocalDate.of(year, month, day);	
-		BankAccount bank = new BankAccount(idBank,bankDate);
+		// Creating the main bank
+		BankAccount bank = creatingBankThroughInput();
 		bank.setComparatorId(comparatorId);
 		bank.setComparatorDate(comparatorDate);
-		printBank(bank);
+		printBank(bank);		
 		
 		// Create other banks to compare
 		LocalDate bankADate = LocalDate.of(1996, 10, 18);
@@ -52,7 +34,35 @@ public class Main {
 		// Compare the banks
 		compareBanks(bank, bankA);		
 		compareBanks(bank, bankB);		
-	}	
+	}
+	
+	private static BankAccount creatingBankThroughInput() {
+		Scanner input = new Scanner(System.in);	
+		
+		// Create main bank fields
+		System.out.println("## WRITE MY BANK DATA FIELDS ### ");
+		String idBank = "";
+		System.out.print("Write an id bank: ");
+		idBank = input.nextLine();
+				
+		// Create LocalDate for main bank
+		int year = 0, month = 0, day = 0;
+		System.out.print("Write a year for your bank account: ");
+		year = input.nextInt();
+		System.out.print("Write a month for your bank account: ");
+		month = input.nextInt();
+		System.out.print("Write a day for your bank account: ");
+		day = input.nextInt();
+		input.nextLine();		
+		input.close();	
+			
+		// Create the object main banks
+		LocalDate bankDate = LocalDate.of(year, month, day);	
+		BankAccount bank = new BankAccount(idBank,bankDate);
+		
+		return bank;
+		
+	}		
 	
 	private static void printBank(BankAccount bank) {
 		System.out.println("");
