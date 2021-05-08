@@ -1,0 +1,15 @@
+#pragma once
+#include "Clases.h"
+
+aspect LineBeforePoint {
+
+  advice execution("void Point::setX(%)") : before() {
+    Point p1;
+    cout << "Valor: " << p1.getX() << ", Obtenido desde función aspect antes del set" << endl;
+  }
+
+  advice execution("void Point::setY(%)") : before() {
+    Point p2;
+    cout << "Valor: " << p2.getY() << ", Obtenido desde función aspect antes del set" << endl;
+  }
+};
