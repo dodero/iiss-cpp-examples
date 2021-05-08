@@ -23,7 +23,7 @@ int main(){
         };
         (increment(params), ...);
     };
-    accumulator(1,2,3,4,5,6);
+    accumulator(1,2,3,4,5,6,8,9);
     cout << "Variadic Generic Lambda: " << total << endl;
 
     // Mutable
