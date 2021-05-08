@@ -8,18 +8,6 @@
 #include <string> 
 #include <thread>
 
-#include <vector>
-#include <thread>
-#include <future>
-#include <numeric>
-#include <iostream>
-#include <chrono>
-#include <thread>
-#include <string> 
-#include <thread>
-
-
-=======
 using namespace std;
 
 int functionFactorial ( std::future<int>& promiseOfFuture ){
