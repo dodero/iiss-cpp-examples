@@ -46,8 +46,6 @@ int main(){
 	
 	}catch(std::exception &e){ //Si ocurre una excepcion, la lanzamos.
 		promise.set_exception(std::current_exception());
-	}finally{
-	    return 0;
 	}
     
 }
