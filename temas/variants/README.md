@@ -15,8 +15,10 @@ Y para ejecutar el ejemplo, ejecutamos la siguiente línea:
 Una vez ejecutado el programa, podemos introducir cadenas cualesquiera para cambiar el estado de la máquina.
 
 <h2>Mecanismos utilizados</h2>
-![Demo Mecanismos](images/6.png)
-
+<img src="images/6.png">
+El código de aquí arriba es claramente representativo de los diferentes mecanismos que utilizamos en el ejercicio. Por un lado, utilizamos std::variant y std::visitor para
+trabajar con nuestro variant, y también utilizamos std::future para esperar un input del usuario.
+*std::
 
 <h2>Explicación del ejercicio</h2>
 Como dijimos anteriormente, en este ejercicio implementamos una máquina de estados finitos con cuatro estados posibles: Espera, Activo, Pausa y Terminado.
