@@ -14,6 +14,10 @@ Y para ejecutar el ejemplo, ejecutamos la siguiente línea:
 
 Una vez ejecutado el programa, podemos introducir cadenas cualesquiera para cambiar el estado de la máquina.
 
+<h2>Mecanismos utilizados</h2>
+![Demo Mecanismos](images/6.png)
+
+
 <h2>Explicación del ejercicio</h2>
 Como dijimos anteriormente, en este ejercicio implementamos una máquina de estados finitos con cuatro estados posibles: Espera, Activo, Pausa y Terminado.
 El trabajo de nuestra máquina será llevar un contador desde 0% hasta el 100%, avanzando un 5% cada segundo. El usuario podrá introducir una cadena cualquiera por consola para iniciar la máquina, pausarla/reactivarla, y reiniciarla cuando el trabajo haya terminado.
