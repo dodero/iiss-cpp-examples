@@ -6,7 +6,7 @@ y activar la máquina.
 <h2>Compilación y ejecución</h2>
 Para compilar el ejercicio, es tan sencillo como situarnos en el directorio donde se encuentra el fichero variant.cpp y ejecutar el siguiente comando:
 
-![Compilación  del Ejemplo](/images/1.png)
+![Compilación  del Ejemplo](temas/variants/images/1.png)
 
 Y para ejecutar el ejemplo, ejecutamos la siguiente línea:
 
