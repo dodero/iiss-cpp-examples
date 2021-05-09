@@ -17,8 +17,14 @@ Una vez ejecutado el programa, podemos introducir cadenas cualesquiera para camb
 <h2>Mecanismos utilizados</h2>
 <img src="images/6.png">
 El código de aquí arriba es claramente representativo de los diferentes mecanismos que utilizamos en el ejercicio. Por un lado, utilizamos std::variant y std::visitor para
-trabajar con nuestro variant, y también utilizamos std::future para esperar un input del usuario.
-*std::
+trabajar con nuestro variant, y también utilizamos std::future para esperar un input del usuario. Por orden:
+
+* std::async lo utilizamos para lanzar nuestra función de petición de entrada por consola de forma asíncrona, de manera que nuestra máquina pueda seguir trabajando independientemente de si se introduce algo o no.
+* std::holds_alternative<T>(variant) devuelve true si el tipo en activo de variant es T. Ésto nos permite verificar que estamos trabajando con el tipo adecuado antes de utilizar std::get
+* std::get<T>(variant) nos devuelve el objeto variant de tipo T. A tener en cuenta que, si el tipo activo no es T, salta una excepción tipo bad_variant_access, por lo que es importante haber comprobado antes el tipo de nuestro variant mediante std::holds_alternative.
+* std::future::wait_for espera durante el tiempo especificado (en nuestro caso, un segundo) para ver si se completa el futuro.
+* std::future_status::ready Si nuestro futuro f se ha completado, f.wait_for(1s) == future::status::ready;
+* std::visit(func, variant) Invoca a la función func para variant.
 
 <h2>Explicación del ejercicio</h2>
 Como dijimos anteriormente, en este ejercicio implementamos una máquina de estados finitos con cuatro estados posibles: Espera, Activo, Pausa y Terminado.
