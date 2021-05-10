@@ -6,6 +6,8 @@
 #include <iostream>
 #include <ctime>
 #include <cassert>
+#include <bits/stdc++.h>
+
 using namespace std;
 
 class BankAccount
@@ -14,7 +16,6 @@ class BankAccount
         std::string id;
         tm fecha = {0};
         void validaciones();
-        //Añadir fecha no se si como string o como time_t
     public:
         //Clase Invalida para lanzar un mensaje de error
         class Invalida
@@ -41,32 +42,27 @@ class BankAccount
         int dia(){return fecha.tm_mday;};
         int mes(){return fecha.tm_mon;};
         int ano(){return fecha.tm_year;};
+
+        //Operadores de fecha
+        bool operator == (const tm& fecha){return (dia()==fecha.tm_mday && mes()==fecha.tm_mon && ano()==fecha.tm_year);};
+        bool operator !=(const tm& fecha){return (!(*this==fecha));};
+        bool operator < (const tm& fecha);
+        bool operator <= (const tm& fecha){return (*this==fecha || *this < fecha);};
+        bool operator >(const tm& fecha){return (!(*this < fecha || *this==fecha));};
+        bool operator >=(const tm& fecha){return (*this > fecha || *this==fecha);};
+
+        //Operadores de id
+        bool operator == (const string& id){return (getId().compare(id)==0);};
+        bool operator != (const string& id){return (!(*this==id));};
+        bool operator < (const string& id){return (getId().compare(id)<0);};
+        bool operator <=(const string& id){return (*this < id || *this==id);};
+        bool operator >(const string& id){return (getId().compare(id)>0);};
+        bool operator >=(const string& id){return (*this>id || *this==id);};
+
         ~BankAccount();
 };
 
 
-class BankAcccountComparatorById: public BankAccount{
-    public:
-        BankAcccountComparatorById(std::string number,tm fecha_):BankAccount(number,fecha_){};
-};
 
-bool operator == (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2);
-bool operator != (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2);
-bool operator < (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2);
-bool operator > (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2);
-bool operator <= (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2);
-bool operator >= (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2);
-
-class BankAccountComparatorByCreationDate: public BankAccount{
-    public:
-        BankAccountComparatorByCreationDate(std::string number,tm fecha_):BankAccount(number,fecha_){};
-};
-
-bool operator == (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2);
-bool operator != (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2);
-bool operator < (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2);
-bool operator > (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2);
-bool operator <= (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2);
-bool operator >= (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2);
 
 #endif

@@ -14,62 +14,17 @@ BankAccount::~BankAccount(){
     fecha={0};
 }
 
-bool operator == (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2){
-    return (b1.getId().compare(b2.getId())==0);
-}
-
-bool operator != (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2){
-    return (!(b1==b2));
-}
-
-bool operator < (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2){
-    return (b1.getId().compare(b2.getId())<0);
-}
-
-bool operator > (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2){
-    return (b2<b1);
-}
-
-bool operator <= (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2){
-    return (b1 < b2 || b1==b2);
-}
-
-bool operator >= (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2){
-    return (b1 > b2 || b1==b2);
-}
-
-bool operator == (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2){
-    return (b1.dia()==b2.dia() && b1.mes()==b2.mes() && b1.ano()==b2.ano());
-}
-
-bool operator != (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2){
-    return (!(b1==b2));
-}
-
-bool operator < (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2){
-    if(b1.ano()<b2.ano()){
+bool BankAccount::operator < (const tm& fecha){
+    if (ano()<fecha.tm_year){
         return true;
     }
-    if(b1.ano()==b1.ano() && b1.mes()<b2.mes()){
+    if (ano()==fecha.tm_year && mes()<fecha.tm_mon){
         return true;
     }
-    if(b1.ano()==b1.ano() && b1.mes()==b2.mes() && b1.dia()<b2.dia()){
+    if(ano()==fecha.tm_year && mes()==fecha.tm_mon && dia()<fecha.tm_mday){
         return true;
     }
-
     return false;
-}
-
-bool operator > (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2){
-    return (b2<b1);
-}
-
-bool operator <= (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2){
-    return (b1<b2 || b1==b2);
-}
-
-bool operator >= (const BankAccountComparatorByCreationDate& b1,const BankAccountComparatorByCreationDate& b2){
-    return (b1>b2 || b1==b2);
 }
 
 void BankAccount::validaciones()
