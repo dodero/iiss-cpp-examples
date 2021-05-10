@@ -18,11 +18,6 @@ public class excepcionesUnchecked {
 	}
 
 	public static void excepcionPropiaUnchecked(String name){
-		if(name != "UCA") throw new nombreDeNuestraUniversidadErroneo("Esto no es la "+name+", ESTO ES LA UCA!!!");
+		if(name != "UCA") throw new nombreDeNuestraUniversidadErroneo("Esto no es la "+name+", ESTO ES LA UCA");
 	}
-}
-
-class nombreDeNuestraUniversidadErroneo extends RuntimeException{
-	public nombreDeNuestraUniversidadErroneo() {}
-	public nombreDeNuestraUniversidadErroneo(String mensajeDeError) {super(mensajeDeError);}
 }

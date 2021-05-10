@@ -9,17 +9,17 @@ public class excepciones {
 		System.out.println("*****Excepciones que heredan de Throwable(CHECKED)*****");
 		System.out.println("*******************************************************");
 		
-		System.out.println("Excepcion checked con código que la provoca:");
+		System.out.println("Excepcion checked con codigo que la provoca");
 		usoExcepcionChecked1();
 		
 		System.out.println();
 		
-		System.out.println("Excepcion checked creada y lanzada manualmente con mensaje personalizado:");
+		System.out.println("Excepcion checked creada y lanzada manualmente con mensaje personalizado");
 		usoExcepcionChecked2();
 		
 		System.out.println();
 		
-		System.out.println("Excepcion checked creada por mi, con mensaje personalizado e imprimiendo la Stack Trace:");
+		System.out.println("Excepcion checked creada por mi, con mensaje personalizado e imprimiendo la Stack Trace");
 		usoExcepcionChecked3();
 		
 		System.out.println();
@@ -28,17 +28,17 @@ public class excepciones {
 		System.out.println("*****Excepciones que heredan de RuntimeException(UNCHECKED)*****");	
 		System.out.println("****************************************************************");
 		
-		System.out.println("Excepcion unchecked con código que la provoca:");
+		System.out.println("Excepcion unchecked con codigo que la provoca");
 		usoExcepcionUnchecked1();
 		
 		System.out.println();
 		
-		System.out.println("Varias excepciones unchecked que dicen el tipo error que ha saltado y con finally:");
+		System.out.println("Varias excepciones unchecked que dicen el tipo error que ha saltado y con finally");
 		usoExcepcionUnchecked2();
 		
 		System.out.println();
 		
-		System.out.println("Excepcion unchecked creada por mi con mensaje personalizado y que no ha sido capturada:");
+		System.out.println("Excepcion unchecked creada por mi con mensaje personalizado y que no ha sido capturada");
 		usoExcepcionUnchecked3();
 	}	
 	
@@ -61,8 +61,8 @@ public class excepciones {
 	}
 	public static void usoExcepcionUnchecked2() {
 		try {excepcionesUnchecked.variasExcepciones();}
-		catch(ArithmeticException e) {System.out.println("Como has introducido un 0 ha salido un error del tipo: "+e.getClass().getName());}
-		catch(InputMismatchException e) {System.out.println("Como no has introducido un numero ha salido un error del tipo: "+e.getClass().getName());}
+		catch(ArithmeticException e) {System.out.println("Como has introducido un 0 ha salido un error del tipo "+e.getClass().getName());}
+		catch(InputMismatchException e) {System.out.println("Como no has introducido un numero ha salido un error del tipo "+e.getClass().getName());}
 		finally {System.out.println("Hola soy un finally");}
 	}
 	public static void usoExcepcionUnchecked3() {
