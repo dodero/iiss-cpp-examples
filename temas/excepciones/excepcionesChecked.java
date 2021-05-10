@@ -19,11 +19,6 @@ public class excepcionesChecked {
 	}
 
 	public static void excepcionPropiaChecked(String name) throws nombreDeNuestraAsignaturaErroneo{
-		if(name != "IISS") throw new nombreDeNuestraAsignaturaErroneo("Esto no es "+name+", ESTO ES IISS!!!");
+		if(name != "IISS") throw new nombreDeNuestraAsignaturaErroneo("Esto no es "+name+", ESTO ES IISS");
 	}	
-}
-
-class nombreDeNuestraAsignaturaErroneo extends Exception{
-	public nombreDeNuestraAsignaturaErroneo() {}
-	public nombreDeNuestraAsignaturaErroneo(String mensajeDeError) {super(mensajeDeError);}
 }
