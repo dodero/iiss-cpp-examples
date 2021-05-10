@@ -27,8 +27,6 @@ class Lista{
         bool isEqualTo(Lista <T>);
         //iterator<T> iterator();
 
-        list<T> returnList() const {return lista;};
-
     private:
 
         std::list<T> lista;
