@@ -14,6 +14,7 @@ BankAccount::~BankAccount(){
     fecha={0};
 }
 
+<<<<<<< HEAD
 bool operator == (const BankAcccountComparatorById& b1,const BankAcccountComparatorById& b2){
     return (b1.getId().compare(b2.getId())==0);
 }
@@ -72,6 +73,21 @@ bool operator >= (const BankAccountComparatorByCreationDate& b1,const BankAccoun
     return (b1>b2 || b1==b2);
 }
 
+=======
+bool BankAccount::operator < (const tm& fecha){
+    if (ano()<fecha.tm_year){
+        return true;
+    }
+    if (ano()==fecha.tm_year && mes()<fecha.tm_mon){
+        return true;
+    }
+    if(ano()==fecha.tm_year && mes()==fecha.tm_mon && dia()<fecha.tm_mday){
+        return true;
+    }
+    return false;
+}
+
+>>>>>>> 9a017375f24f92b3c1983d0f031056853604d266
 void BankAccount::validaciones()
 {
 		if ((fecha.tm_mon==1 || fecha.tm_mon==3 || fecha.tm_mon==5 || fecha.tm_mon==7 || fecha.tm_mon==8 || fecha.tm_mon==10 || fecha.tm_mon==12) && (fecha.tm_mday < 1 || fecha.tm_mday > 31)) throw BankAccount::Invalida("NO EXISTE EL DIA");
