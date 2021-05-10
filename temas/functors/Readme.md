@@ -1,4 +1,5 @@
 Para realizar el ejercicio de los bancos he seguido lo siguientes aspectos vistos en la asignatura:
+<<<<<<< HEAD
 	-Primero he usado el principio de cohesión reduciendo la responsabilidad de la clase BankAccount. Para esto he creado tres clases: BankAccount,  BankAcccountComparatorById y BankAccountComparatorByCreationDate.
 	
 		1. BankAccount se encargara de la creación del objeto y la modificación y obtención de sus parámetros.
@@ -13,6 +14,11 @@ Para realizar el ejercicio de los bancos he seguido lo siguientes aspectos visto
 	le aplicaremos el polimorfismo parámetrico pasádole a otros functors dos objetos de BankAccountComparatorByCreationDate.
 	
 	-Para definir los operadores he utilizado métodos externos debido a que en c++ le da bastantes beneficios siendo el más importante realizar la conversión implícita.
+=======
+	-He creado la clase BankAccount donde aparte de crear el objeto compararemos con las fechas y los id
+	
+	-He usado también polimorfismo paramétrico que consiste en definir la misma función pero con parámetros distintos. Para ello en las functors recibiremos un tipo tm y un tripo string dentro de nuestra clase BankAccount
+>>>>>>> 9a017375f24f92b3c1983d0f031056853604d266
 
 	-Se hace uso del tm (librería ctime) para almacenar la fecha recibida.
 
