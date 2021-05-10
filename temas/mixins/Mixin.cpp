@@ -9,8 +9,8 @@ class Animal{
 		void setPeso(float peso){m_peso = peso;}
 		void setPrecio(float precio){m_precio += precio;}
 		
-		virtual float getPrecio() = 0;
-		float getPeso(){return m_peso};
+		//virtual float getPrecio() = 0;
+		float getPeso(){return m_peso;};
 	
 		int m_id;
 		float m_precio;
