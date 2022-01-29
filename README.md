@@ -54,7 +54,6 @@ La implementación se realizará en un lenguaje también a elegir. Los ejemplos 
 
 Implementar el ejemplo final de [Recorrido de listas](http://dodero.github.io/iiss/iiss-oop-1/#implementacion-alternativa-lista-v04) usando los mecanismos del lenguaje para definición de tipos de datos, ocultación de la implementación, aplicación del principio de acceso uniforme y especificación de la inmutabilidad del estado de un objeto. Por ejemplo:
 
-- En C++, se podrían usar modificadores de visibilidad (`protected`, `private` y `friend`), `namespaces`, iteradores de `std`, etc.
 - En Ruby, se podrían usar `:symbols`, `module`, `@variables` de instancia, `attr_accessor`, `attr_reader`, `attr_writer`, etc.
 - En Scala, se podrían usar modificadores de visibilidad (`private`, `protected`), `var`, `val`, `type`, `abstract`, `sealed`, etc.
 - En C#, se podrían usar modificadores de visibilidad y _properties_ `get`,`set` e `init`, etc.
@@ -63,7 +62,6 @@ Implementar el ejemplo final de [Recorrido de listas](http://dodero.github.io/ii
 
 Implementar el ejemplo de [Aventura](http://dodero.github.io/iiss/iiss-oop-1/#ejemplo-aventura-v01) usando los mecanismos de herencia que proporcione el lenguaje. Por ejemplo:
 
-- En C++, se podrían usar herencia simple o múltiple, polimorfismo estático (_templates_) o dinámico para implementar [mixins](https://michael-afanasiev.github.io/2016/08/03/Combining-Static-and-Dynamic-Polymorphism-with-C++-Template-Mixins.html), etc.
 - En Scala, podría usarse el mecanismo básico de herencia (`extends`), mixins (`traits`), `with`, etc.
 - En C#, se podrían usar el mecanismo básico de herencia, `interface`, `base`, `override`, `virtual`, `new`, etc.
 
@@ -71,7 +69,6 @@ Implementar el ejemplo de [Aventura](http://dodero.github.io/iiss/iiss-oop-1/#ej
 
 Implementar el ejemplo final de [Orquesta](http://dodero.github.io/iiss/iiss-oop-2/#implementacion-alternativa-orquesta-v06) usando los mecanismos del lenguaje para la delegación/composición. Intentará evitarse el uso de _lambdas_, que están destinadas a otro bloque. Por ejemplo:
 
-- En C++, podrían usarse _functors_, _templates_, punteros a función, etc.
 - En C# podrían usarse `delegates`.
 - En Scala, podrían usarse _first-class functions_.
 - En Ruby, podrían usarse bloques, `proc`, `module` y `delegate`.
@@ -90,8 +87,6 @@ Implementar un ejemplo de uso de uniones _type-safe_ empleando los mecanismos di
 
  Implementar el ejemplo de la identificación de [BankAccount](http://dodero.github.io/iiss/iiss-oop-3/#ejercicio-identificador-de-bankaccount-con-inyeccion-de-dependencias) y que se puedan definir diversos atributos para comparar cuentas, usando los mecanismos del lenguage para inyectar como dependencia el criterio de comparación. Por ejemplo:
  
-- En C++, podría usarse: polimorfismo paramétrico (_templates_), sobrecarga de operadores binarios, objetos función o [functors](https://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html), etc.
-
 - En Java, puede usarse el framework [Guice](https://github.com/google/guice/wiki/)
 - En Scala, puede usarse el framework [Play](https://www.playframework.com/) que implementa la inyección de dependencias [en tiempo de compilación](https://www.playframework.com/documentation/2.8.x/ScalaCompileTimeDependencyInjection).
 
@@ -108,7 +103,6 @@ Implementar el ejemplo de [BankAccount](http://dodero.github.io/iiss/iiss-oop-3/
 
 Implementar usando aspectos el ejemplo del caso [Editor de Figuras](http://dodero.github.io/iiss/iiss-aop/#caso-5-editor-de-figuras). Por ejemplo:
 
-- En C++, usar [AspectC++](https://www.aspectc.org/)
 - En Java, usar intercepción de métodos con [Guice](https://github.com/google/guice/wiki/AOP)
 - En Python, usar [Spring Python](https://docs.spring.io/spring-python/1.2.x/sphinx/html/aop.html#aspect-oriented-programming)
 
