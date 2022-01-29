@@ -73,7 +73,7 @@ Implementar el ejemplo final de [Orquesta](http://dodero.github.io/iiss/iiss-oop
 - En Scala, podrían usarse _first-class functions_.
 - En Ruby, podrían usarse bloques, `proc`, `module` y `delegate`.
 
-### Uniones
+#### Uniones
 
 Implementar un ejemplo de uso de uniones _type-safe_ empleando los mecanismos disponibles en el lenguaje. Por ejemplo:
 
