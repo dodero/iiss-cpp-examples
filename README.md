@@ -16,11 +16,11 @@ La implementación se realizará en un lenguaje también a elegir. Los ejemplos 
    - Notificar por correo en el campus al profesor los temas elegidos y esperar su confirmación.
    - Estudiar los ejemplos del tema estudiados en clases de teoría, o bien proponer un ejemplo alternativo.
 2. Elegir al menos un lenguaje de implementación de entre los siguientes:
-   - Scala
-   - Python
-   - TypeScript/JavaScript
-   - C#
-   - Ruby
+   - [Scala](https://www.scala-lang.org/)
+   - [Python](https://www.python.org/)
+   - [TypeScript](https://www.typescriptlang.org/) y JavaScript
+   - [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+   - [Ruby](https://www.ruby-lang.org/)
    - Cualquier otro lenguaje que tenga un mecanismo útil de implementación del tema elegido y el ejemplo propuesto
 3. Implementar los ejemplos empleando los mecanismos del lenguaje elegido.
    - Incluir una breve explicación escrita en [markdown](https://en.wikipedia.org/wiki/Markdown), que incluya instrucciones sobre cómo construir, compilar y ejecutar el ejemplo.
@@ -60,7 +60,7 @@ Implementar el ejemplo final de [Recorrido de listas](http://dodero.github.io/ii
 
 #### Herencia
 
-Implementar el ejemplo de [Aventura](http://dodero.github.io/iiss/iiss-oop-1/#ejemplo-aventura-v01) usando los mecanismos de herencia que proporcione el lenguaje. Por ejemplo:
+Implementar el ejemplo de [Aventura](http://dodero.github.io/iiss/iiss-oop-1/#ejemplo-aventura-v01) usando los mecanismos de herencia y polimorfismo de inclusión que proporcione el lenguaje. Por ejemplo:
 
 - En Scala, podría usarse el mecanismo básico de herencia (`extends`), mixins (`traits`), `with`, etc.
 - En C#, se podrían usar el mecanismo básico de herencia, `interface`, `base`, `override`, `virtual`, `new`, etc.
