@@ -159,3 +159,5 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 | SANCHIDRIÁN HERRERA, PABLO  | TypeScript  | Herencia  | Anotaciones  | Undefined | Arrow functions |
 |   |   |   |   |   |   |
 | SAUCEDO GARCÍA, JUAN MANUEL  | C++, Java  | Unión (C++)  | Aspectos (Java)  | Undefined (C++) | Observables (C++) |
+|   |   |   |   |   |   |
+| ROBLES SORROCHE, LUIS        |   Python   |  Delegación  |  Inyecciones  | Undefined | Observables |
