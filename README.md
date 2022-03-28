@@ -151,3 +151,12 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
  
 - En C++, usar los elementos _observable_ de la biblioteca [RxCpp](http://reactivex.io/RxCpp/index.html).
 - En Scala, usar el framework [Akka](https://akka.io/) o el trait [`Observable`](https://reactivex.io/rxscala/scaladoc/index.html#rx.lang.scala.Observable) de las extensiones [RxScala](https://reactivex.io/rxscala/).
+
+## Asignación
+
+|   | Lenguaje  | Bloque I  | Bloque II  | Bloque III  | Bloque IV  |
+|   |   | Objetos  | Dependencias  | Calidad  | Funcional y Asíncrona  |
+|---|---|---|---|---|---|
+| SANCHIDRIÁN HERRERA, PABLO  | TypeScript  | Herencia  | Anotaciones  | Undefined | Arrow functions |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
