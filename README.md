@@ -154,8 +154,7 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 
 ## Asignación
 
-|   | Lenguaje  | Bloque I  | Bloque II  | Bloque III  | Bloque IV  |
-|   |   | Objetos  | Dependencias  | Calidad  | Funcional y Asíncrona  |
+|   | Lenguaje  | Bloque I OBJETOS  | Bloque II DEPENDENCIAS  | Bloque III CALIDAD  | Bloque IV FUNCIONAL Y ASINC |
 |---|---|---|---|---|---|
 | SANCHIDRIÁN HERRERA, PABLO  | TypeScript  | Herencia  | Anotaciones  | Undefined | Arrow functions |
 |   |   |   |   |   |   |
