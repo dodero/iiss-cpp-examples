@@ -156,7 +156,7 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 
 |   | Lenguaje  | Bloque I OBJETOS  | Bloque II DEPENDENCIAS  | Bloque III CALIDAD  | Bloque IV FUNCIONAL Y ASINC |
 |---|---|---|---|---|---|
-| SANCHIDRIÁN HERRERA, PABLO  | TypeScript  | Herencia  | Anotaciones  | Undefined | Arrow functions |
+| [SANCHIDRIÁN HERRERA, PABLO](https://github.com/PaulSanHerr)  | TypeScript  | Herencia  | Anotaciones  | Undefined | Arrow functions |
 |   |   |   |   |   |   |
 | [SAUCEDO GARCÍA, JUAN MANUEL](http://github.com/juanmanuelsaucedo)  | C++, Java  | Unión (C++)  | Aspectos (Java)  | Undefined (C++) | Observables (C++) |
 |   |   |   |   |   |   |
