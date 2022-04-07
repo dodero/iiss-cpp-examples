@@ -167,3 +167,5 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 | [BERNAL PÉREZ, FRANCISCO JOSÉ](http://github.com/FcoJoseBernalPerez)|   C#,Python,Java,C++   |  Delegación(C#)  |  Aspectos(Python)  | Contratos(Java) | Lambdas(C++) |
 |	|	|	|	|	|	|
 | [VELO HUERTA, CRISTÓBAL JOSÉ](http://github.com/CJVH-UCA)| Python | Herencia | Aspectos | Contratos | Lambda |
+|  |  |  |  |  |  |
+| [PÉREZ MERCADO, RUBÉN](http://github.com/rubenperezm)| Kotlin | Herencia | Anotaciones | Null Safety | Lambdas |
