@@ -162,7 +162,7 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 |   |   |   |   |   |   |
 | [ROBLES SORROCHE, LUIS](http://github.com/luisroblessorroche)        |   Python   |  Delegación  |  Inyecciones  | Undefined | Observables |
 |   |   |   |   |   |   |
-| [VÁZQUEZ SÁEZ, MARÍA](http://github.com/mariavazquezss) | C#,Java, C++ | Herencia(C#)  | Inyección(Java)  | Contratos(Java) | Promesas y Futuros(C++) |
+| [VÁZQUEZ SÁEZ, MARÍA](http://github.com/mariavazquezss) | C#,Java, C++ | [Herencia(C#)](temas/herencia/csharp/)  | Inyección(Java)  | [Contratos(valid4j)](temas/contratos/java-valid4j/) | Promesas y Futuros(C++) |
 |   |   |   |   |   |   |
 | [BERNAL PÉREZ, FRANCISCO JOSÉ](http://github.com/FcoJoseBernalPerez)|   C#,Python,Java,C++   |  Delegación(C#)  |  Aspectos(Python)  | Contratos(Java) | Lambdas(C++) |
 |	|	|	|	|	|	|
