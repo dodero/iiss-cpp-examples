@@ -169,3 +169,5 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 | [VELO HUERTA, CRISTÓBAL JOSÉ](http://github.com/CJVH-UCA)| Python | Herencia | Aspectos | Contratos | Lambda |
 |  |  |  |  |  |  |
 | [PÉREZ MERCADO, RUBÉN](http://github.com/rubenperezm)| Kotlin | Herencia | Anotaciones | Null Safety | Lambdas |
+|  |  |  |  |  |  |
+| [LOIZ JORDAN, CARLOS](https://github.com/carlosloiz97)| C# | Herencia | Inyección | Contratos | Lambdas |
