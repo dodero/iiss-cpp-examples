@@ -10,7 +10,7 @@ las funciones lambda.
 Las funciones lambda son funciones de una sola instrucción (normalmente) que se almacenan en una variable, o que se ejecutan directamente. Se caracterizan de que NO hace falta escribir return, porque se sobre entiende que la función devuelve algo.
 Aunque se podrian poner los return y funcionaria perfectamente.
 
-Las funciones lambdas pueden tener más de una instrucción, para ello debemos de englobar el contenido con ```{}``` .
+Las funciones lambdas pueden tener más de una instrucción, para ello debemos de englobar el contenido con ```{}``` y obligatorio usar `return` .
 ### Tipos
 
 > Arrow function sin parametros
