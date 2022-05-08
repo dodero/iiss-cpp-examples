@@ -75,8 +75,3 @@ let claseEx: any = new claseExportada()
 // ...
 ```
 
-
-## Compilar
-> `tsc --experimentalDecorators anotaciones.ts`
-## Ejecutar
->`node anotaciones.js`
