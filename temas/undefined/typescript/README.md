@@ -1,7 +1,10 @@
 # Bloque 3: Calidad
 
+
 ## Requisitos
-El usuario debe instalar `npm install --save typescript-optional`
+> Debemos tener previamente instalado [NodeJS](https://nodejs.org/en/) y TypeScript `npm install -g typescript`
+
+> El usuario debe instalar `npm install --save typescript-optional`
 
 ## Undefined en TypeScript
 Ejemplo implemetado "MobileTester" del apartado [Optionals](http://dodero.github.io/iiss/iiss-err/#optionals)

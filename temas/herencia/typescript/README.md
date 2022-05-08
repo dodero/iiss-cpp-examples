@@ -1,5 +1,7 @@
 # Bloque 1: Objetos
 
+## Requisitos
+> Debemos tener previamente instalado [NodeJS](https://nodejs.org/en/) y TypeScript `npm install -g typescript`
 ## Compilar
 > `tsc herencia.ts`
 ## Ejecutar

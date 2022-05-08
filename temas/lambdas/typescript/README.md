@@ -1,4 +1,8 @@
 # Bloque 4: Funcionalidad y Asíncrono
+
+## Requisitos
+> Debemos tener previamente instalado [NodeJS](https://nodejs.org/en/) y TypeScript `npm install -g typescript`
+
 ## Lambdas en TypeScript
 TypeScript usa las "arrow functions" que tiene una equivalencia directa con 
 las funciones lambda.
