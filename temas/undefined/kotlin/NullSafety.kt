@@ -45,5 +45,5 @@ fun main() {
     // Smart cast: Una conversion que daria lugar a un ClassCastException devuelve un nullable del tipo a convertir
     // (Probar a quitar el '?')
     val m = height as? Mobile
-    println(m);
+    println("La conversion de Int a Mobile devuelve: ${m}");
 }
