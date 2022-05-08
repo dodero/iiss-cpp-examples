@@ -6,6 +6,13 @@
 
 > El usuario debe instalar `npm install --save typescript-optional`
 
+## Compilar
+`tsc undefined.ts`
+
+## Ejecutar
+`node undefined.js`
+
+
 ## Undefined en TypeScript
 Ejemplo implemetado "MobileTester" del apartado [Optionals](http://dodero.github.io/iiss/iiss-err/#optionals)
 usando los mecanismos del lenguaje para resolver el problema de los valores *undefined* 

@@ -3,6 +3,12 @@
 ## Requisitos
 > Debemos tener previamente instalado [NodeJS](https://nodejs.org/en/) y TypeScript `npm install -g typescript`
 
+## Compilar
+`tsc --experimentalDecorators anotaciones.ts`
+## Ejecutar
+`node anotaciones.js`
+
+
 ## Objetivo
 
 ### Implementar 
