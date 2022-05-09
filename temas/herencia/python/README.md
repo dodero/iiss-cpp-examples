@@ -2,8 +2,11 @@
 Autor: Cristóbal José Velo Huerta
 
 ## Ejecución del ejemplo
----
+```
+python ./Aventura.py
+```
 
-Python ./Aventura.py
 
----
+
+## Código
+
