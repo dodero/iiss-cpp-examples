@@ -113,7 +113,7 @@ Implementar usando aspectos el ejemplo del caso [Editor de Figuras](http://doder
 
 Implementar ejemplos de contratos, usando una librería disponible en el lenguaje de elección para programar contratos. Por ejemplo:
 
-- En Java, podría usarse bibliotecas específicas para programar contratos como [Contracts for Java](https://github.com/nhatminhle/cofoja) u [Oval](https://sebthom.github.io/oval/USERGUIDE.html#programming-by-contract)
+- En Java, podría usarse bibliotecas específicas para programar contratos como [Contracts for Java](https://github.com/nhatminhle/cofoja), [Oval](https://sebthom.github.io/oval/USERGUIDE.html#programming-by-contract) o [Valid4J](http://www.valid4j.org/).
 
 - En Scala, podrían usarse los mecanismos del lenguaje disponibles en [Predef.scala](https://www.scala-lang.org/api/2.13.6/scala/Predef$.html), como por ejemplo: `assert`, `assume`, `require`, `ensuring`, etc.
 
