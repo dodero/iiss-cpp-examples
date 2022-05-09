@@ -1,1 +1,3 @@
-#Herencia en Python
+## Herencia en Python
+Autor: Cristóbal José Velo Huerta
+
