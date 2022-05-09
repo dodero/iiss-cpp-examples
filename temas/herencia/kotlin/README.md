@@ -86,7 +86,7 @@ open class Derivada : Base(){
     ...
 }
 ```
-Como podemos ver, es necesaria la palabra open en los métodos y propiedades a sobreescribir. Destacar que `val` equivalía a un `const` de C++. Podríamos sobreescribirlo por un variable (`var`) y funcionaría. Como curiosidad, el proceso inverso no compilaría, pues implícitamente se declaran getters y setters por cada variable, y al convertir un `var` en `val` estaríamos "perdiendo" el setter.
+Como podemos ver, es necesaria la palabra open en los métodos y propiedades a sobreescribir. Destacar que `val` equivaldría a un `const` de C++, aunque no es exactamente lo mismo, pues la de Kotlin podrá inicializarse después de declararse. Podríamos sobreescribirlo por un variable (`var`) y funcionaría. Como curiosidad, el proceso inverso no compilaría, pues implícitamente se declaran getters y setters por cada variable, y al convertir un `var` en `val` estaríamos "perdiendo" el setter.
 
 Si quitásemos la palabra `override` el compilador nos indicaría lo siguiente: `'i' hides member of supertype 'Base' and needs 'override' modifier`.
 
