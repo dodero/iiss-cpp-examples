@@ -57,6 +57,7 @@ if __name__ == "__main__":
 ```	
 # Explicación
 Reimplementación del ejemplo Avenura 0.2 visto en las clases de teoría python.
+<br>
 Se ha intentado mantener la estructura del código original de Java pero cambiando ciertos aspectos para mostrar el funcionamiento propio de la herencia en Python.
 
 En Python no tenemos el problema de que una clase herede de otra clase y no se pueda acceder a los atributos y metodos de la clase padre.
