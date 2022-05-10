@@ -166,7 +166,7 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 |   |   |   |   |   |   |
 | [BERNAL PÉREZ, FRANCISCO JOSÉ](http://github.com/FcoJoseBernalPerez)|   C#,Python,Java,C++   |  Delegación(C#)  |  Aspectos(Python)  | Contratos(Java) | Lambdas(C++) |
 |	|	|	|	|	|	|
-| [VELO HUERTA, CRISTÓBAL JOSÉ](http://github.com/CJVH-UCA)| Python, Java | [Herencia(Python)](temas/herencia/python/) | Aspectos(Java con Guice) | Contratos(Python) | Lambda(Python) |
+| [VELO HUERTA, CRISTÓBAL JOSÉ](http://github.com/CJVH-UCA)| Python, Java | [Herencia(Python)](temas/herencia/python/) | Aspectos(Java con Guice) | [Contratos(Python)](temas/contratos/python/) | [Lambdas(Python)](temas/lambdas/python/) |
 |  |  |  |  |  |  |
 | [PÉREZ MERCADO, RUBÉN](http://github.com/rubenperezm)| Kotlin | [Herencia](temas/herencia/kotlin) | [Anotaciones](temas/anotaciones/kotlin) | [Null Safety](temas/undefined/kotlin) | [Lambdas](temas/lambdas/kotlin) |
 |  |  |  |  |  |  |
