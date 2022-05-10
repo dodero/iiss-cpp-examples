@@ -1,6 +1,6 @@
 #IISS-2021/2022
 #Autor: Cristobal Jose Velo Huerta
-#Remplementacion de la clase Aventura v0.2 vista en las clases de teoria a python con un par de cambios
+#Reimplementacion de la clase Aventura v0.2 vista en las clases de teoria a python
 
 #"Interfaces"
 class SabeLuchar:   #root class
@@ -49,8 +49,3 @@ class Aventura:
 #execute main
 if __name__ == "__main__":
     Aventura().main()
-    
-
-
-    
-

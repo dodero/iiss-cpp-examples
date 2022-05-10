@@ -1,5 +1,5 @@
 #IISS-2021/2022
-#Autor: Cristóbal José Velo Huerta
+#Autor: Cristobal Jose Velo Huerta
 #Paquete usado: PyContracts 1.8.12
 #https://github.com/AndreaCensi/contracts
 #Instalación: pip install PyContracts
