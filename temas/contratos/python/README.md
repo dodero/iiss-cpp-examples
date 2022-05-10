@@ -20,7 +20,7 @@ pip install pyparsing==2.4.7
 ```
 ## Ejecución del ejemplo
 ```
-python ./Aventura.py
+python ./Contracts.py
 ```
 ## Código
 ```
