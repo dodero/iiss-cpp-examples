@@ -60,10 +60,15 @@ Reimplementación del ejemplo Avenura 0.2 visto en las clases de teoría python.
 <br>
 Se ha intentado mantener la estructura del código original de Java pero cambiando ciertos aspectos para mostrar el funcionamiento propio de la herencia en Python.
 
-En Python no tenemos el problema de que una clase herede de otra clase y no se pueda acceder a los atributos y metodos de la clase padre.
-Pero si los métodos se llaman igual hay que establecer un mecanismo para diferenciar sobre a cual queremos que se llame en el caso de que haya implementaciones en las superclases
-En el siguiente ejemplo PersonajeDeAccion no hereda de SabeLuchar y hemos decidido porque sí que Heroe llame al metodo luchar de SabeLuchar en vez de al de PersonajeDeAccion
-Para ello hay que poner super().luchar() en el método luchar de PersonajeDeAccion para que ejecute el método de la "root class"
-Esto sin embargo tambien tiene ciertos problemas porque el código de la clase no root tambien se ejecutará. Para resolver esto hay que tener en cuenta
-el orden de la herencia en la clase hija lo cual puede ser un verdadero problema en caso de que se quiera heredar de varias clases que no podemos tocar pero siempre podemos
-hacer una llamada directa a los metodos de la clase padre mediante A.function(self) siendo A una de las clases de las que se hereda.
+En Python, al existir multiherencia, no tenemos los problemas presentes en Java de no poder acceder a los atributos y métodos de una superclase.
+<br>
+Podemos tener interfaces y clases abstractas de las que tendremos que implementar sus métodos en algún momento en las clases que las heredan.
+Pero, ¿qué ocurre si heredamos de mas de una clase y existen métodos que se llaman igual?
+<br>
+Deberemos decidir cual de ellos tendrá mayor jerarquía. Para ello usaremos super().funcion() para forzar la ajecución de la función de la "root class". Distinguimos a la root class por no tener super().funcion() en el código. En este código hemos decidido que sea SabeLuchar forma arbitraria.
+
+También a la hora de sobreescribir funciones hay que tener el cuenta el orden en el que heredamos porque afecta a que función estamos sobreescribiendo. Esto puede ser un problema importante en el caso de heredar de muchas clases, tener muchos métodos que se llamen igual y no poder editar ese código. Podriamos creer que estamos sobreescribiendo una función y acabar sobreescribiendo otra.
+
+En caso de duda siempre podemos llamar directamente a la funcion de una clase concreta usando su nombre ( A.funcion(self) en vez de super().funcion())
+
+En cuanto al código entregado, realmente es un híbrido de la estructura del programa en Java y algunas de las utilidades presentes en Python. Si quisieramos un código Python mas puro, implementariamos los prints en las clases SabeX porque no nos causaría ningún problema dada la especificación tan sencilla de este ejemplo.
