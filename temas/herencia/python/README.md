@@ -3,7 +3,7 @@ Autor: Cristóbal José Velo Huerta
 
 ## Ejecución del ejemplo
 ```
-python ./Aventura.py
+python ./Contracts.py
 ```
 
 ## Código
