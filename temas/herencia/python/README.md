@@ -54,7 +54,9 @@ class Aventura:
 #execute main
 if __name__ == "__main__":
     Aventura().main()
-```	
+
+```
+
 # Explicación
 Reimplementación del ejemplo Avenura 0.2 visto en las clases de teoría python.
 <br>
