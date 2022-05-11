@@ -86,8 +86,8 @@ public class Operaciones
 }
 ```
 ## Ejecutar 
-Para poder probar la clase **Operaciones.java** realizamos el siguiente método **main** y ejecutamos.
-### Main.java
+Para poder probar la clase **Operaciones.java** añadimos el siguiente método **main** dentro de la clase y ejecutamos.
+### Operaciones.java
 ```java
 public static void main(String[] args) 
 	{

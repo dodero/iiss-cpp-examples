@@ -4,7 +4,7 @@
 Para explicar como realizar la herencia, vamos a partir del ejemplo **Aventura**. 
 En primer lugar, necesitamos la clase base **Personaje de Acción**:
 
-### PersonajeDeAccion.java
+### PersonajeDeAccion.cs
 ```csharp
 using System;
 namespace Aventura
@@ -17,7 +17,7 @@ namespace Aventura
 
 ```
 Seguidamente, crearemos las interfaces:
-### SabeNadar.java
+### SabeNadar.cs
 ```csharp
 using System;
 namespace Aventura
@@ -29,7 +29,7 @@ namespace Aventura
 }
 
 ```
-### SabeVolar.java
+### SabeVolar.cs
 ```csharp
 using System;
 namespace Aventura
@@ -40,7 +40,7 @@ namespace Aventura
     }
 }
 ```
-### SabeLuchar.java
+### SabeLuchar.cs
 ```csharp
 using System;
 namespace Aventura
@@ -52,7 +52,7 @@ namespace Aventura
 }
 ```
 A continuación, creamos la clase **Heroe** subclase de la clase **Personaje de Accion** y además, implementa los métodos de las interfaces anteriormente creadas:
-### Heroe.java
+### Heroe.cs
 ```csharp
 using System;
 namespace Aventura
@@ -66,7 +66,7 @@ namespace Aventura
 }
 ```
 Finalmente, crearemos la clase **Aventura** donde probaremos las clases anteriores.
-### Aventura.java
+### Aventura.cs
 ```csharp
 using System;
 
