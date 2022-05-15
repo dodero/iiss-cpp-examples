@@ -23,7 +23,7 @@ Un decorador para cada comparador tanto de fecha como de id
 ## Explicación
 
 ### Decorador (Definicion)
-- Los decoradores (decorators en inglés) son una propuesta para incluir en JavaScript que nos permite añadir anotaciones y metadatos o cambiar el comportamiento de clases, propiedades, métodos, parámetros y accesors. Con TypeScript podemos usarlos activando la propiedad experimentalDecorators del tsconfig.json de nuestro proyecto o si decidimos compilar mediante el comando tsc, colocar siempre la opción de ```--experimentalDecorators```, en caso de que salte algun error probar con ```--experimentalDecorators ---target ES5```.
+- Los decoradores son una propuesta para incluir en JavaScript que nos permite añadir anotaciones y metadatos o cambiar el comportamiento de clases, propiedades, métodos, parámetros y accesors. Con TypeScript podemos usarlos activando la propiedad experimentalDecorators del tsconfig.json de nuestro proyecto o si decidimos compilar mediante el comando tsc, colocar siempre la opción de ```--experimentalDecorators```, en caso de que salte algun error probar con ```--experimentalDecorators ---target ES5```.
 
 ### Procedimiento aplicado
 - Para llevar a cabo esta funcionalidad vamos a usar un **decorador de clase**.
@@ -74,4 +74,3 @@ let claseDosModulo: any = new Nombre.MiClase2()
 let claseEx: any = new claseExportada()
 // ...
 ```
-
