@@ -42,3 +42,7 @@ const arrowFunction = () => {
     // varias instruccions
 }
 ```
+
+El scope que tienen permite acceder a varibales de ambito superior (Diferencia principal con JAVA).
+Una funcion lambda en JAVA tiene el scope fijo, y no puede modificar variables, solo tratar con objetos y con
+variables marcadas de tipo `final`, en typescript tenemos libertad total.

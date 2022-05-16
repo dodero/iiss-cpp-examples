@@ -35,3 +35,13 @@ const concat = (arg1: string, arg2: string): string =>  arg1 + arg2;
 
 console.log(x2(10));
 console.log(concat('hola', ' que pasa'))
+
+
+// las funciones anonimas no tiene un scope limitado, es decir, pueden acceder al nivel superior
+let outside: number = 59;
+const add = () => outside + 2;
+console.log('Scope superior: ', add())
+
+// lambdas como parametros
+const call = (callback) => callback()
+console.log('call add: ', call(add))
