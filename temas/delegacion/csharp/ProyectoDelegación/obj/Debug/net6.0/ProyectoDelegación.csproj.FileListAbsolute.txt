@@ -1,0 +1,15 @@
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\bin\Debug\net6.0\ProyectoDelegación.exe
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\bin\Debug\net6.0\ProyectoDelegación.deps.json
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\bin\Debug\net6.0\ProyectoDelegación.runtimeconfig.json
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\bin\Debug\net6.0\ProyectoDelegación.dll
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\bin\Debug\net6.0\ref\ProyectoDelegación.dll
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\bin\Debug\net6.0\ProyectoDelegación.pdb
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\obj\Debug\net6.0\ProyectoDelegación.csproj.AssemblyReference.cache
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\obj\Debug\net6.0\ProyectoDelegación.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\obj\Debug\net6.0\ProyectoDelegación.AssemblyInfoInputs.cache
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\obj\Debug\net6.0\ProyectoDelegación.AssemblyInfo.cs
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\obj\Debug\net6.0\ProyectoDelegación.csproj.CoreCompileInputs.cache
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\obj\Debug\net6.0\ProyectoDelegación.dll
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\obj\Debug\net6.0\ref\ProyectoDelegación.dll
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\obj\Debug\net6.0\ProyectoDelegación.pdb
+C:\Users\franj\Desktop\Universidad 3.0\IISS\Trabajo IISS\ProyectoDelegación\ProyectoDelegación\obj\Debug\net6.0\ProyectoDelegación.genruntimeconfig.cache
