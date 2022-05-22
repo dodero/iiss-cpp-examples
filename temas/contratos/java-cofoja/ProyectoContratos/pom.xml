@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.contractexample</groupId>
+  <artifactId>arraycontractexample</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <dependency> <!-- (5) -->
+    <groupId>org.huoc</groupId>
+    <artifactId>cofoja</artifactId>
+    <version>1.3.1</version>
+  </dependency>
+</dependencies>
+
+<build>
+  <plugins>
+    <plugin>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <version>2.20</version>
+      <configuration>
+        <argLine>-ea</argLine>
+        <argLine>-javaagent:${org.huoc:cofoja:jar}</argLine>
+      </configuration>
+    </plugin>
+    <plugin>
+      <artifactId>maven-dependency-plugin</artifactId>
+      <version>2.9</version>
+      <executions>
+        <execution>
+          <id>define-dependencies-as-properties</id>
+          <goals>
+            <goal>properties</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+  </plugins>
+</build>
+</project>
