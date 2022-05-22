@@ -2,5 +2,7 @@
 Accedemos a "Editar las variables del sistema"
 Accedemos a "Variables de entorno..."
 Y añadimos al path "C:\Windows\Microsoft.NET\Framework64\v4.0.30319"
-## Ejecución del programa
+## Compilación del programa
 csc Program.cs
+## Ejecución del programa
+.\Program.exe
