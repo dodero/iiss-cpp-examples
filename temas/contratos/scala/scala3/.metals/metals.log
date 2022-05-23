@@ -1,0 +1,155 @@
+2022.05.16 18:02:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\lsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.16 18:02:15 INFO  logging to file C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\metals.log
+2022.05.16 18:02:15 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3' for client Visual Studio Code 1.67.1.
+2022.05.16 18:02:20 INFO  time: initialize in 4.88s
+2022.05.16 18:02:20 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.16 18:02:20 WARN  Build server is not auto-connectable.
+2022.05.16 18:02:23 WARN  no build target for: C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\Main.scala
+2022.05.16 18:02:25 INFO  running 'C:\Program Files\Java\jdk-11.0.15\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\LUCA~1\AppData\Local\Temp\metals9472481220237821992\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.16 18:02:30 INFO  no build target found for C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.16 18:02:32 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 11.0.15)
+2022.05.16 18:02:36 INFO  time: code lens generation in 10s
+2022.05.16 18:02:36 INFO  time: code lens generation in 12s
+2022.05.16 18:02:37 INFO  [info] loading settings for project scala3-build-build from metals.sbt ...
+2022.05.16 18:02:39 INFO  [info] loading project definition from C:\Users\LucÃ­a\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\project\project
+2022.05.16 18:02:43 INFO  [info] loading settings for project scala3-build from metals.sbt ...
+2022.05.16 18:02:43 INFO  [info] loading project definition from C:\Users\LucÃ­a\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\project
+2022.05.16 18:02:49 INFO  [success] Generated .bloop\scala3-build.json
+2022.05.16 18:02:49 INFO  [success] Total time: 6 s, completed 16 may. 2022 18:02:50
+2022.05.16 18:02:52 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.16 18:02:52 INFO  [info] set current project to scala3 (in build file:/C:/Users/LucÃ­a/Desktop/Universidad/Universidad/Actualmente%20cursando/IISS/trabajo/Bloque%203%20-%20Contratos/scala3/)
+2022.05.16 18:02:54 INFO  [success] Generated .bloop\root.json
+2022.05.16 18:02:54 INFO  [success] Generated .bloop\root-test.json
+2022.05.16 18:02:54 INFO  [success] Total time: 1 s, completed 16 may. 2022 18:02:54
+2022.05.16 18:02:54 INFO  time: ran 'sbt bloopInstall' in 29s
+2022.05.16 18:02:54 INFO  Attempting to connect to the build server...
+2022.05.16 18:03:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\bsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.16 18:03:02 INFO  Attempting to connect to the build server...
+2022.05.16 18:03:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\project\.metals\bsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.16 18:03:02 INFO  time: Connected to build server in 8.45s
+2022.05.16 18:03:02 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.16 18:03:03 INFO  time: Imported build in 0.33s
+2022.05.16 18:03:10 INFO  time: indexed workspace in 7.3s
+2022.05.16 18:03:12 INFO  compiling root (1 scala source)
+2022.05.16 18:03:22 INFO  compiling root-test (1 scala source)
+2022.05.16 18:03:22 INFO  time: compiled root in 10s
+2022.05.16 18:03:25 INFO  time: compiled root-test in 2.99s
+2022.05.16 18:05:34 INFO  shutting down Metals
+2022.05.16 18:05:34 INFO  Shut down connection with build server.
+2022.05.16 18:05:34 INFO  Shut down connection with build server.
+2022.05.16 18:06:29 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\lsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.16 18:06:30 INFO  logging to file C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\metals.log
+2022.05.16 18:06:30 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3' for client Visual Studio Code 1.67.1.
+2022.05.16 18:06:34 INFO  time: initialize in 3.2s
+2022.05.16 18:06:34 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.16 18:06:35 INFO  Attempting to connect to the build server...
+2022.05.16 18:06:35 INFO  skipping build import with status 'Installed'
+2022.05.16 18:06:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\bsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.16 18:06:35 INFO  Attempting to connect to the build server...
+2022.05.16 18:06:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\project\.metals\bsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.16 18:06:35 INFO  time: Connected to build server in 0.73s
+2022.05.16 18:06:35 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.16 18:06:36 INFO  time: Imported build in 0.36s
+2022.05.16 18:06:43 INFO  time: indexed workspace in 6.93s
+2022.05.16 18:07:45 INFO  shutting down Metals
+2022.05.16 18:07:45 INFO  Shut down connection with build server.
+2022.05.16 18:07:45 INFO  Shut down connection with build server.
+2022.05.22 18:38:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\lsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.22 18:38:15 INFO  logging to file C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\metals.log
+2022.05.22 18:38:15 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3' for client Visual Studio Code 1.67.2.
+2022.05.22 18:38:19 INFO  time: initialize in 3.56s
+2022.05.22 18:38:19 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.22 18:38:20 INFO  Attempting to connect to the build server...
+2022.05.22 18:38:21 INFO  skipping build import with status 'Installed'
+2022.05.22 18:38:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\bsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.22 18:38:31 INFO  Attempting to connect to the build server...
+2022.05.22 18:38:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\project\.metals\bsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.22 18:38:31 INFO  time: Connected to build server in 10s
+2022.05.22 18:38:31 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.22 18:38:31 INFO  time: Imported build in 0.51s
+2022.05.22 18:38:39 INFO  time: indexed workspace in 7.4s
+2022.05.22 18:42:42 INFO  compiling root (3 scala sources)
+2022.05.22 18:42:47 INFO  time: compiled root in 4.08s
+2022.05.22 18:59:37 ERROR code navigation does not work for the file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala' because the SemanticDB file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.bloop\root\bloop-bsp-clients-classes\classes-Metals-cC-vS_XxTc-MvvmxQ2yhwQ==\META-INF\semanticdb\src\main\scala\App.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.05.22 18:59:39 ERROR code navigation does not work for the file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala' because the SemanticDB file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.bloop\root\bloop-bsp-clients-classes\classes-Metals-cC-vS_XxTc-MvvmxQ2yhwQ==\META-INF\semanticdb\src\main\scala\App.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.05.22 18:59:39 ERROR code navigation does not work for the file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala' because the SemanticDB file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.bloop\root\bloop-bsp-clients-classes\classes-Metals-cC-vS_XxTc-MvvmxQ2yhwQ==\META-INF\semanticdb\src\main\scala\App.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.05.22 18:59:39 ERROR code navigation does not work for the file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala' because the SemanticDB file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.bloop\root\bloop-bsp-clients-classes\classes-Metals-cC-vS_XxTc-MvvmxQ2yhwQ==\META-INF\semanticdb\src\main\scala\App.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.05.22 18:59:42 ERROR code navigation does not work for the file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala' because the SemanticDB file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.bloop\root\bloop-bsp-clients-classes\classes-Metals-cC-vS_XxTc-MvvmxQ2yhwQ==\META-INF\semanticdb\src\main\scala\App.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.05.22 18:59:46 ERROR code navigation does not work for the file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala' because the SemanticDB file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.bloop\root\bloop-bsp-clients-classes\classes-Metals-cC-vS_XxTc-MvvmxQ2yhwQ==\META-INF\semanticdb\src\main\scala\App.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.05.22 18:59:46 ERROR code navigation does not work for the file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala' because the SemanticDB file 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.bloop\root\bloop-bsp-clients-classes\classes-Metals-cC-vS_XxTc-MvvmxQ2yhwQ==\META-INF\semanticdb\src\main\scala\App.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.05.22 19:00:05 INFO  compiling root (3 scala sources)
+2022.05.22 19:00:05 INFO  time: compiled root in 0.84s
+2022.05.22 19:22:12 INFO  shutting down Metals
+2022.05.22 19:22:12 INFO  Shut down connection with build server.
+2022.05.22 19:22:12 INFO  Shut down connection with build server.
+2022.05.22 23:05:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\lsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.22 23:05:27 INFO  logging to file C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\metals.log
+2022.05.22 23:05:27 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3' for client Visual Studio Code 1.67.2.
+2022.05.22 23:05:32 INFO  time: initialize in 5.53s
+2022.05.22 23:05:32 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.22 23:05:34 INFO  Attempting to connect to the build server...
+2022.05.22 23:05:34 INFO  skipping build import with status 'Installed'
+2022.05.22 23:05:50 INFO  no build target found for C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.22 23:05:51 WARN  no build target for: C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala
+2022.05.22 23:05:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\bsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.22 23:05:54 INFO  Attempting to connect to the build server...
+2022.05.22 23:05:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\project\.metals\bsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.22 23:05:54 INFO  time: Connected to build server in 20s
+2022.05.22 23:05:54 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.22 23:05:56 INFO  time: Imported build in 0.91s
+2022.05.22 23:05:59 INFO  time: code lens generation in 21s
+2022.05.22 23:06:01 INFO  no build target found for C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.22 23:06:03 INFO  time: code lens generation in 4.59s
+2022.05.22 23:06:05 INFO  time: code lens generation in 13s
+2022.05.22 23:06:05 INFO  time: code lens generation in 14s
+2022.05.22 23:06:05 INFO  time: code lens generation in 13s
+2022.05.22 23:06:10 INFO  time: indexed workspace in 14s
+2022.05.22 23:06:16 INFO  compiling root (3 scala sources)
+2022.05.22 23:06:25 INFO  time: compiled root in 8.57s
+2022.05.22 23:06:28 INFO  compiling root (3 scala sources)
+2022.05.22 23:06:31 INFO  time: compiled root in 3.07s
+2022.05.22 23:08:10 INFO  compiling root (3 scala sources)
+2022.05.22 23:08:11 INFO  time: compiled root in 1.2s
+2022.05.22 23:08:14 INFO  compiling root (3 scala sources)
+2022.05.22 23:08:15 INFO  time: compiled root in 1.34s
+2022.05.22 23:08:28 INFO  compiling root (3 scala sources)
+2022.05.22 23:08:28 INFO  time: compiled root in 0.78s
+2022.05.22 23:19:38 INFO  compiling root (3 scala sources)
+2022.05.22 23:19:38 INFO  time: compiled root in 0.75s
+2022.05.22 23:23:07 INFO  compiling root (3 scala sources)
+2022.05.22 23:23:07 INFO  time: compiled root in 0.54s
+may. 22, 2022 11:25:27 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 261
+2022.05.22 23:25:32 INFO  compiling root (3 scala sources)
+2022.05.22 23:25:32 INFO  time: compiled root in 0.56s
+2022.05.22 23:26:48 INFO  shutting down Metals
+2022.05.22 23:26:49 INFO  Shut down connection with build server.
+2022.05.22 23:26:49 INFO  Shut down connection with build server.
+2022.05.23 12:31:35 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\lsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.23 12:31:36 INFO  logging to file C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\metals.log
+2022.05.23 12:31:36 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3' for client Visual Studio Code 1.67.2.
+2022.05.23 12:31:40 INFO  time: initialize in 3.31s
+2022.05.23 12:31:40 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.23 12:31:41 INFO  Attempting to connect to the build server...
+2022.05.23 12:31:41 INFO  skipping build import with status 'Installed'
+may. 23, 2022 12:31:44 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.05.23 12:31:53 INFO  no build target found for C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\Conditions.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.23 12:31:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\.metals\bsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.23 12:31:56 INFO  Attempting to connect to the build server...
+2022.05.23 12:31:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\project\.metals\bsp.trace.json or C:\Users\Lucía\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.23 12:31:56 INFO  time: Connected to build server in 14s
+2022.05.23 12:31:56 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.23 12:31:56 INFO  time: Imported build in 0.42s
+2022.05.23 12:32:00 INFO  no build target found for C:\Users\Lucía\Desktop\Universidad\Universidad\Actualmente cursando\IISS\trabajo\Bloque 3 - Contratos\scala3\src\main\scala\App.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.23 12:32:01 INFO  time: code lens generation in 8.11s
+2022.05.23 12:32:02 INFO  time: indexed workspace in 6.27s
+2022.05.23 12:32:05 INFO  compiling root (2 scala sources)
+2022.05.23 12:32:12 INFO  time: compiled root in 6.81s
+2022.05.23 12:32:14 INFO  compiling root (2 scala sources)
+2022.05.23 12:32:17 INFO  time: compiled root in 2.79s
+2022.05.23 12:32:19 INFO  compiling root (2 scala sources)
+2022.05.23 12:32:21 INFO  time: compiled root in 1.75s
+2022.05.23 12:32:34 INFO  shutting down Metals
+2022.05.23 12:32:34 INFO  Shut down connection with build server.
+2022.05.23 12:32:34 INFO  Shut down connection with build server.
