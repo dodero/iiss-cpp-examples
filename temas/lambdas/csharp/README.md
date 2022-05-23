@@ -1,4 +1,4 @@
-# Contratos
+# Lambdas
 
 Autor : Carlos Loiz Jordán.
 
