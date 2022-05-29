@@ -162,7 +162,7 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 |   |   |   |   |   |   |
 | [ROBLES SORROCHE, LUIS](http://github.com/luisroblessorroche)        |   Python   |  [Delegación](temas/delegacion/python/) |  [Inyección](temas/inyeccion/python/)  | [Undefined](temas/undefined/python/) | [Observables](temas/observables/python/) |
 |   |   |   |   |   |   |
-| [VÁZQUEZ SÁEZ, MARÍA](http://github.com/mariavazquezss) | C#, Java, C++ | [Herencia(C#)](temas/herencia/csharp/)  | [Inyección (Java)](temas/inyeccion/java-di-1/)  | [Contratos(valid4j)](temas/contratos/java-valid4j/) | Promesas y Futuros (C++) |
+| [VÁZQUEZ SÁEZ, MARÍA](http://github.com/mariavazquezss) | C#, Java, C++ | [Herencia(C#)](temas/herencia/csharp/)  | [Inyección (Java)](temas/inyeccion/java-di-spring/)  | [Contratos(valid4j)](temas/contratos/java-valid4j/) | Promesas y Futuros (C++) |
 |   |   |   |   |   |   |
 | [BERNAL PÉREZ, FRANCISCO JOSÉ](http://github.com/FcoJoseBernalPerez)|   C#, Python, Java, C++   |  Delegación(C#)  |  [Aspectos(Python)](temas/aspectos/python/)  | [Contratos(Java)](temas/contratos/java-cofoja/) | Lambdas(C++) |
 |	|	|	|	|	|	|
