@@ -164,7 +164,7 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 |   |   |   |   |   |   |
 | [VÁZQUEZ SÁEZ, MARÍA](http://github.com/mariavazquezss) | C#, Java, C++ | [Herencia(C#)](temas/herencia/csharp/)  | [Inyección (Java)](temas/inyeccion/java-di-1/)  | [Contratos(valid4j)](temas/contratos/java-valid4j/) | Promesas y Futuros (C++) |
 |   |   |   |   |   |   |
-| [BERNAL PÉREZ, FRANCISCO JOSÉ](http://github.com/FcoJoseBernalPerez)|   C#,Python,Java,C++   |  Delegación(C#)  |  Aspectos(Python)  | Contratos(Java) | Lambdas(C++) |
+| [BERNAL PÉREZ, FRANCISCO JOSÉ](http://github.com/FcoJoseBernalPerez)|   C#, Python, Java, C++   |  Delegación(C#)  |  [Aspectos(Python)](temas/aspectos/python/)  | [Contratos(Java)](temas/contratos/java-cofoja/) | Lambdas(C++) |
 |	|	|	|	|	|	|
 | [VELO HUERTA, CRISTÓBAL JOSÉ](http://github.com/CJVH-UCA)| Python, Java | [Herencia(Python)](temas/herencia/python/) | Aspectos(Java con Guice) | [Contratos(Python)](temas/contratos/python/) | [Lambdas(Python)](temas/lambdas/python/) |
 |  |  |  |  |  |  |
