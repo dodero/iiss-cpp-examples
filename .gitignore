@@ -31,6 +31,12 @@
 *.out
 *.app
 
+# Java
+*.class
+.classpath
+.factorypath
+
 # Other
 .DS_Store
 .vscode/settings.json
+.project
