@@ -160,7 +160,7 @@ Implementar un ejemplo de procesamiento de streams de eventos asíncronos emplea
 |   |   |   |   |   |   |
 | [SAUCEDO GARCÍA, JUAN MANUEL](http://github.com/juanmanuelsaucedo)  | C++, Java  | [Unión (C++)](temas/uniones/cpp/)  | Aspectos (Java)  | [Undefined (C++)](temas/undefined/cpp/) | Observables (C++) |
 |   |   |   |   |   |   |
-| [ROBLES SORROCHE, LUIS](http://github.com/luisroblessorroche)        |   Python   |  Delegación  |  Inyecciones  | Undefined | Observables |
+| [ROBLES SORROCHE, LUIS](http://github.com/luisroblessorroche)        |   Python   |  [Delegación](temas/delegacion/python/) |  [Inyección](temas/inyeccion/python/)  | [Undefined](temas/undefined/python/) | [Observables](temas/observables/python/) |
 |   |   |   |   |   |   |
 | [VÁZQUEZ SÁEZ, MARÍA](http://github.com/mariavazquezss) | C#,Java, C++ | [Herencia(C#)](temas/herencia/csharp/)  | Inyección(Java)  | [Contratos(valid4j)](temas/contratos/java-valid4j/) | Promesas y Futuros(C++) |
 |   |   |   |   |   |   |
